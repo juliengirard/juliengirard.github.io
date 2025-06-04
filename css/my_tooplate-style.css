@@ -837,7 +837,7 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
 
   .pricing-btn {
     position: absolute;
-    top: 15px;
+    top: 8px;
     right: 0px;
     display: inline-block;
   }
@@ -1244,3 +1244,29 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
 }
 
 
+/* icon stack */
+  .icon-stack {
+    position: relative;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  .icon-base, .icon-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.5em;
+  }
+
+  .icon-base {
+    class: fab fa-twitter;
+    color: #1DA1F2; /* Twitter blue */
+    opacity: 0.9;
+  }
+
+  .icon-top {
+    class: fab fa-x-twitter;
+    color: black; /* X logo */
+    font-size: 1.0em;
+  }
