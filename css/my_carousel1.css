@@ -185,7 +185,7 @@ img.hover-shadow {
   position: absolute;
   top: 7px;
   right: 50px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.4);
   color: lightgray;
   padding: 8px 12px;
   border-radius: 4px;
