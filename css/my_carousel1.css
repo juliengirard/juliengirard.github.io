@@ -141,6 +141,16 @@ img {
   opacity: 1;
 }
 
+.demo1, .demo2, .demo3, .demo4 {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.demo1.active, .demo2.active, .demo3.active, .demo4.active {
+  opacity: 1;
+}
+
+
 img.hover-shadow {
   transition: 0.3s;
 }
