@@ -5,56 +5,56 @@ Template 2106 Soft Landing
 http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
 	
 */
- 
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400');
 
-  body {
-    font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden;
-    background: #f9f9f9;
-  }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  background: #f9f9f9;
+}
 
 /**** VIDEO ****/
 
 #home {
-    position: relative;
-    min-height: 80vh;
-    padding-top: 12em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
+  position: relative;
+  min-height: 80vh;
+  padding-top: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
 }
 
 #home video#homeVideo {
-    position: absolute;
-    top: 100%;
-    left: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    transform: translate(-50%, -50%);
-    background-size: cover;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  background-size: cover;
 }
 
 #home .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Dark overlay */
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  z-index: 1;
 }
 
 #home .container, 
 #home .row, 
 #home .home-info {
-    position: relative;
-    z-index: 2; /* Bring text above the video and overlay */
+  position: relative;
+  z-index: 2; /* Bring text above the video and overlay */
 }
 
 
@@ -77,7 +77,7 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
     font-size: 2em;
   }
 
-    h3 {
+  h3 {
     color: #000000;
     font-size: 1.4em;
     line-height: 1.5;
@@ -90,16 +90,16 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
     line-height: 24px;
   }
 
-.video-text {
-  font-size: 10px;
-  position: absolute;
-  bottom: -80%;
-  left: 50%;
-  transform: translateX(-50%);
-  color: lightgrey;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.0);
-  text-align: center;
-}
+  .video-text {
+    font-size: 10px;
+    position: absolute;
+    bottom: -80%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: lightgrey;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.0);
+    text-align: center;
+  }
 
   /*---------------------------------------
      GENERAL               
@@ -141,6 +141,15 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
   .section-title {
     padding-bottom: 40px;
   }
+
+  .subsection-space {
+    padding-bottom: 80px;
+  }
+
+  .subsection-title {
+    padding-bottom: 20px;
+  }
+
 
   section {
     position: relative;
@@ -289,29 +298,29 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
       MENU              
   -----------------------------------------*/
 
-.custom-navbar .navbar-nav.navbar-right2 li a {
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-top: 7px;
-  font-size: 15px;
-  font-weight: 500;
-  white-space: nowrap; /* Prevent wrapping */
-  display: inline-block;
-  width: 100%;
-  white-space: nowrap;
-  max-width: 800px; /* increase as needed */
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+  .custom-navbar .navbar-nav.navbar-right2 li a {
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap; /* Prevent wrapping */
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    max-width: 800px; /* increase as needed */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
-.custom-navbar .navbar-nav.navbar-center2 li a {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 40px;
-  font-size: 16px;
-  font-weight: 500;
-  white-space: nowrap; /* Prevent wrapping */
-}
+  .custom-navbar .navbar-nav.navbar-center2 li a {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap; /* Prevent wrapping */
+  }
 
 
 
@@ -354,94 +363,231 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
   margin: 0;
 }
 
+.custom-navbar {
+  border: none;
+  margin-bottom: 0;
+  padding: 25px 0;
+}
+
+.custom-navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.top-nav-collapse {
+  background: #ffffff;
+}
+
+.custom-navbar .navbar-nav {
+  margin-left: 3em;
+}
+
+.custom-navbar .nav li a {
+  font-size: 16px;
+  font-weight: normal;
+  color: #f0f0f0;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+
+.custom-navbar .nav li a:hover {
+  background: transparent;
+  /* color: #29ca8e; */
+  color: #3498db ;
+}
+
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
+  background-color: transparent;
+}
+
+.custom-navbar .nav li.active > a {
+  background-color: transparent;
+  /* color: #29ca8e; */
+  color: #3498db ;
+}
+
+.custom-navbar .navbar-toggle {
+  border: none;
+  padding-top: 10px;
+}
+
+.custom-navbar .navbar-toggle {
+  background-color: transparent;
+}
+
+.custom-navbar .navbar-toggle .icon-bar {
+  /* background: #29ca8e; */
+  background: #3498db ;
+  border-color: transparent;
+}
+
+@media(min-width:768px) {
   .custom-navbar {
-    border: none;
-    margin-bottom: 0;
-    padding: 25px 0;
+    border-bottom: 0;
+    background: 0 0; 
   }
 
-  .custom-navbar .navbar-brand {
-    color: #ffffff;
-    font-size: 22px;
-    font-weight: 500;
-    letter-spacing: -1px;
-  }
-
-  .top-nav-collapse {
+  .custom-navbar.top-nav-collapse {
     background: #ffffff;
+    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
   }
 
-  .custom-navbar .navbar-nav {
-    margin-left: 3em;
+  .top-nav-collapse .navbar-brand {
+    color: #252525;
   }
 
-  .custom-navbar .nav li a {
-    font-size: 16px;
-    font-weight: normal;
-    color: #f0f0f0;
-    padding-right: 13px;
-    padding-left: 13px;
+  .top-nav-collapse .nav li a {
+    color: #575757;
   }
 
-  .custom-navbar .nav li a:hover {
-    background: transparent;
-    /* color: #29ca8e; */
-    color: #3498db ;
+  .top-nav-collapse .nav .section-btn a {
+    color: #ffffff;
+  }
+}
+
+
+  /*---------------------------------------
+   SUBMENU        
+  -----------------------------------------*/
+/* === DESKTOP DROPDOWN === */
+.navbar-nav li .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: transparent;
+  padding: 0;
+  list-style: none;
+  min-width: 150px;
+  font-size: 10px !important;
+  box-shadow: none;
+  border: none;
+}
+
+.navbar-nav li.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* === MOBILE SUBMENU FIXES === */
+@media (max-width: 767px) {
+  .navbar-collapse .dropdown-menu {
+    display: block !important;
+    position: static !important;
+    float: none !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
   }
 
-  .custom-navbar .navbar-nav > li > a:hover,
-  .custom-navbar .navbar-nav > li > a:focus {
-    background-color: transparent;
-  }
-
-  .custom-navbar .nav li.active > a {
-    background-color: transparent;
-    /* color: #29ca8e; */
-    color: #3498db ;
-  }
-
-  .custom-navbar .navbar-toggle {
+  .navbar-collapse .dropdown-menu li a {
+    padding-left: 30px !important;  /* ← Indent subitems properly */
+    font-size: 10px !important;
+    background: transparent !important;
+    color: #fff;  /* or #000 if light navbar */
+    display: block;
     border: none;
-    padding-top: 10px;
+    transition: font-size 0.2s ease;
   }
 
-  .custom-navbar .navbar-toggle {
-    background-color: transparent;
+  .navbar-collapse .dropdown-menu li a:hover {
+    font-size: 11px !important;
+    color: #fff;
+    background: transparent !important;
   }
 
-  .custom-navbar .navbar-toggle .icon-bar {
-    /* background: #29ca8e; */
-    background: #3498db ;
-    border-color: transparent;
+  /* Remove unwanted dash or symbols */
+  .navbar-collapse .dropdown-menu li a::before {
+    content: none !important;
   }
 
-  @media(min-width:768px) {
-    .custom-navbar {
-      border-bottom: 0;
-      background: 0 0; 
-    }
+  /* Disable hover-based dropdown logic on mobile */
+  .navbar-nav li.dropdown:hover .dropdown-menu {
+    display: block !important;
+  }
+}
 
-    .custom-navbar.top-nav-collapse {
-      background: #ffffff;
-      -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      padding: 10px 0;
-    }
+/* Force dropdown items always visible on mobile */
+.navbar-nav .dropdown-menu li {
+  display: list-item !important;
+}
 
-    .top-nav-collapse .navbar-brand {
-      color: #252525;
-    }
+/* ============================== */
+/* DESKTOP VIEW (unchanged) */
+/* ============================== */
+.navbar-nav li .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 5px;
+  background: transparent;
+  padding: 0;
+  list-style: none;
+  min-width: 150px;
+  font-size: 12px; /* Smaller font */
+  box-shadow: none;
+  border: none;
+}
 
-    .top-nav-collapse .nav li a {
-      color: #575757;
-    }
+.navbar-nav li.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
-    .top-nav-collapse .nav .section-btn a {
-      color: #ffffff;
-    }
+/* ============================== */
+/* MOBILE OVERRIDE */
+/* ============================== */
+@media (max-width: 767px) {
+  .navbar-collapse .dropdown-menu {
+    display: block !important;
+    position: static !important;
+    float: none !important;
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 0;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    text-align: center;
   }
 
+  .navbar-collapse .dropdown-menu li {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-collapse .dropdown-menu li a {
+    display: inline-block;
+    font-size: 12px !important;
+    padding-left: 10px !important; /* 10px indent */
+    background: transparent !important;
+    color: #252525 !important;
+    border: none;
+    transition: font-size 0.2s ease, color 0.2s ease;
+  }
+
+  .navbar-collapse .dropdown-menu li a:hover {
+    font-size: 13px !important;
+    color: #252525 !important; /* Match hover color with your theme */
+    background: transparent !important;
+  }
+
+  .navbar-collapse .dropdown-menu li a::before {
+    content: none !important;
+  }
+
+  /* Ensure dropdown stays open in mobile collapsed mode */
+  .navbar-nav li.dropdown:hover .dropdown-menu {
+    display: block !important;
+  }
+}
 
 
   /*---------------------------------------
@@ -468,7 +614,7 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
     margin-top: 5px;
   }
   
-#home {
+  #home {
     position: relative;
     min-height: 50vh;
     padding-top: 12em;
@@ -477,9 +623,9 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
     justify-content: center;
     text-align: center;
     overflow: hidden;
-}
+  }
 
-#home video#homeVideo {
+  #home video#homeVideo {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -490,9 +636,9 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
     z-index: 0;
     transform: translate(-50%, -50%);
     background-size: cover;
-}
+  }
 
-#home .overlay {
+  #home .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -500,14 +646,14 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
     width: 100%;
     background: rgba(0, 0, 0, 0.7); /* Dark overlay */
     z-index: 1;
-}
+  }
 
-#home .container, 
-#home .row, 
-#home .home-info {
+  #home .container, 
+  #home .row, 
+  #home .home-info {
     position: relative;
     z-index: 2; /* Bring text above the video and overlay */
-}
+  }
 
   /*---------------------------------------
       FEATURE              
@@ -565,17 +711,17 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
 
   .tab-pane-item h4 {
    margin: 0 0 5px 10px;
-  }
+ }
 
-  .feature-image {
-    position: absolute;
-    bottom: -27em;
-    border: 3px solid #ffffff;
-    border-radius: 300px;
-    width: 360px;
-    height: 360px;
-    margin-right: 0px;
-  }
+ .feature-image {
+  position: absolute;
+  bottom: -27em;
+  border: 3px solid #ffffff;
+  border-radius: 300px;
+  width: 360px;
+  height: 360px;
+  margin-right: 0px;
+}
 
 
 
@@ -683,7 +829,7 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
 
   .testimonial-image {
     /* background: url('../images/testimonial-image.jpg') no-repeat center center; */
-    background: url('../images/MOC_LiaJulien.jpg') no-repeat center center;
+    background: url('../images/work/MOC_LiaJulien.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 65vh;
@@ -715,7 +861,7 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
     margin: 20px 0;
   }
 
- .testimonial-item2 {
+  .testimonial-item2 {
     margin: 0px 0;
     padding: 0px;
   }
@@ -768,7 +914,7 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
   }
 
 
-    .owl-carousel .owl-item img,
+  .owl-carousel .owl-item img,
   .testimonial-item3 img,
   .testimonial-item3 h4 {
     /* color: #f9d9d9; */
@@ -777,7 +923,7 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
     vertical-align: top;
   }
 
-    .testimonial-item3 img {
+  .testimonial-item3 img {
     border: 1px solid #ffffff;
     border-radius: 400px;
     width: 200px;
@@ -907,7 +1053,7 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
   /*---------------------------------------
      SOCIAL ICON              
   -----------------------------------------*/
- 
+
   .social-icon {
     position: relative;
     padding: 0;
@@ -1079,7 +1225,7 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
       font-weight: normal;
     }
 
- .custom-navbar .navbar-header {
+    .custom-navbar .navbar-header {
       color: #202020;
       font-weight: normal;
       align-items: center;
@@ -1150,52 +1296,52 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
 }
 
 
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
-    .online-form input[type="email"],
-    .online-form .form-control {
-      width: 85%;
-    }
-
-    .online-form .form-control {
-      display: block;
-      margin: 20px auto;
-    }
-
-    .online-form button {
-      position: relative;
-      right: 0;
-    }
-
-    .testimonial-image,
-    .testimonial-info {
-      height: 65vh;
-    }
+  .online-form input[type="email"],
+  .online-form .form-control {
+    width: 85%;
   }
+
+  .online-form .form-control {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .online-form button {
+    position: relative;
+    right: 0;
+  }
+
+  .testimonial-image,
+  .testimonial-info {
+    height: 65vh;
+  }
+}
 
 /* Video Credit */
 
 .video-credit {
-    position: relative;
-    bottom: -90px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 7px;
-    color: grey; /* Greyh text */
-    z-index: 10; /* Make sure it's above the video */
-    text-align: center;
-    opacity: 0.8; /* Slightly transparent */
-    white-space: nowrap; /* prevent line break */
+  position: relative;
+  bottom: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 7px;
+  color: grey; /* Greyh text */
+  z-index: 10; /* Make sure it's above the video */
+  text-align: center;
+  opacity: 0.8; /* Slightly transparent */
+  white-space: nowrap; /* prevent line break */
 }
 
 .video-credit a {
-    position: absolute;
-    left: 50%; /* move to the center */
-    bottom: -80%;
-    font-size: 11px;
-    transform: translateX(-50%);
-    display: none; /* hidden by default */
-    text-decoration: none;
+  position: absolute;
+  left: 50%; /* move to the center */
+  bottom: -80%;
+  font-size: 11px;
+  transform: translateX(-50%);
+  display: none; /* hidden by default */
+  text-decoration: none;
 }
 
 /* Show button when hovering over #home */
@@ -1245,28 +1391,28 @@ http://www.tooplate.com/view/2106-soft-landing modified by Julien Girard - 2025
 
 
 /* icon stack */
-  .icon-stack {
-    position: relative;
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-  }
+.icon-stack {
+  position: relative;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+}
 
-  .icon-base, .icon-top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 1.5em;
-  }
+.icon-base, .icon-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.5em;
+}
 
-  .icon-base {
-    class: fab fa-twitter;
-    color: #1DA1F2; /* Twitter blue */
-    opacity: 0.9;
-  }
+.icon-base {
+  class: fab fa-twitter;
+  color: #1DA1F2; /* Twitter blue */
+  opacity: 0.9;
+}
 
-  .icon-top {
-    class: fab fa-x-twitter;
-    color: black; /* X logo */
-    font-size: 1.0em;
-  }
+.icon-top {
+  class: fab fa-x-twitter;
+  color: black; /* X logo */
+  font-size: 1.0em;
+}

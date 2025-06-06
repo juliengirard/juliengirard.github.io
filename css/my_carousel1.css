@@ -9,7 +9,8 @@ modified by Julien Girard - 2025
 /**** LIGHTBOX ****/
 
 body {
-  font-family: Verdana, sans-serif;
+  /* font-family: Verdana, sans-serif; */
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
 

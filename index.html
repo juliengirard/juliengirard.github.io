@@ -14,23 +14,28 @@
 
 	http://www.tooplate.com/view/2106-soft-landing
 
-    -->
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="team" content="">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ -->
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+ <meta name="team" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/owl.carousel.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-     <link rel="stylesheet" href="css/font-awesome.min.css">
-     <link rel="stylesheet" href="css/my_carousel1.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/owl.carousel.css">
+ <link rel="stylesheet" href="css/owl.theme.default.min.css">
+ <link rel="stylesheet" href="css/font-awesome.min.css">
+ <link rel="stylesheet" href="css/my_carousel1.css">
 
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/my_tooplate-style.css">
-
+ <!-- MAIN CSS -->
+ <!-- <link rel="stylesheet" href="css/my_tooplate-style.css"> -->
+ <link rel="stylesheet" href="css/submenu.css">
+  <!-- FAVICON -->
+ <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+ <link rel="icon" type="images/favicon_io/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+ <link rel="icon" type="images/favicon_io/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+ <link rel="manifest" href="images/favicon_io/site.webmanifest">
 </head>
 <body>
 
@@ -61,20 +66,29 @@
 
                <!-- MENU LINKS -->
                <div class="collapse navbar-collapse">
-                     <ul class="nav navbar-nav">
-                         <li><a href="#home" class="smoothScroll">Home</a></li>
-                         <li><a href="#about" class="smoothScroll">About</a></li>
-                         <li><a href="#research" class="smoothScroll">Research</a></li>
-                         <li><a href="#projects" class="smoothScroll">Projects</a></li>
-                         <li><a href="#papers" class="smoothScroll">Publications</a></li>
-                         <li><a href="#photo" class="smoothScroll">Photography</a></li>
-                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                         <!-- <li><a href="#links" class="smoothScroll">Links</a></li> -->
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right2">
-                         <!-- <li><a href="#">Reach out - <span>jgirard@stsci.edu</span></a></li> -->
-                         <ul class="social-icon2">
-                                   <!-- <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li> -->
+                   <ul class="nav navbar-nav">
+                    <li><a href="#home" class="smoothScroll">Home</a></li>
+                    <li><a href="#about" class="smoothScroll">About</a></li>
+                    <li><a href="#research" class="smoothScroll">Research</a></li>
+                    <li><a href="#projects" class="smoothScroll">Projects</a></li>
+                    <li><a href="#papers" class="smoothScroll">Publications</a></li>
+                    <!-- <li><a href="#photo" class="smoothScroll">Photography</a></li> -->
+                    <li class="dropdown">
+                      <a href="#images">Images <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#images">Nightscape Photography</a></li>
+                        <li><a href="#obsphoto">Observatories & Work</a></li>
+                        <li><a href="#obsastro">Favorite Astronomical Images</a></li>
+                   </ul>
+              </li>
+
+              <li><a href="#contact" class="smoothScroll">Contact</a></li>
+              <!-- <li><a href="#links" class="smoothScroll">Links</a></li> -->
+         </ul>
+         <ul class="nav navbar-nav navbar-right2">
+          <!-- <li><a href="#">Reach out - <span>jgirard@stsci.edu</span></a></li> -->
+          <ul class="social-icon2">
+               <!-- <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li> -->
                                    <!-- <li><a href="#" class="fa fa-twitter"></a></li>
                                    <li><a href="#" class="fa fa-instagram"></a></li> -->
                                    <li><a href="https://ui.adsabs.harvard.edu/search/q=docs(library%2FPGeId1QDQ4Op2gaNWXeBnQ)&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" class="ai ai-ads"></a></li>
@@ -82,289 +96,291 @@
                                    <li><a href="https://scholar.google.com/citations?user=GFNGEzYAAAAJ&hl=en" target="_blank" class="ai ai-google-scholar"></a></li>
                                    <li><a href="https://www.linkedin.com/in/juliengirard/" target="_blank" class="fa fa-linkedin"></a></li>
                                    <li><a href="https://github.com/juliengirard" target="_blank" class="fa fa-github"></a></li>
-                                    <li><a href="https://x.com/djulik" target="_blank" class="fa fa-twitter"></a></li>
+                                   <li><a href="https://x.com/djulik" target="_blank" class="fa fa-twitter"></a></li>
 
                                    <li><a href="https://www.instagram.com/juliengiraffe/" target="_blank" class="fa fa-instagram"></a></li>
                                    <li><a href="https://bsky.app/profile/juliengirard.space" target="_blank" class="fa-brands fa-bluesky" attr="bluesky icon"></a></li>
                                    <!---->
                               </ul>
-                    </ul>
-               </div>
-
-          </div>
-     </section>
-
-
-     <!-- FEATURE -->
-<section id="home" data-stellar-background-ratio="1.0">
-    <!-- Video background -->
-    <div class="video-wrapper">
-        <video id="homeVideo" autoplay muted loop playsinline>
-            <source src="images/video2.mp4" type="video/mp4">
-            I am sorry but apparently your browser does not support HTML5 video.
-        </video>
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-offset-3 col-md-6 col-sm-12">
-                    <div class="home-info">
-                        <h1>Julien H. Girard</h1>
-                        <h3>astronomer</h3>
-                        <!-- Play/Pause Button -->
-                        <button class="play-pause">Pause</button>
-
-                        <!-- Video Credit -->
-                        <div class="video-credit">
-                            <a href="http://www.nightscape-timelapse.com/" target="_blank">
-                                Time lapse by Dominique Joubert 2015
-                            </a>
-                        </div>
-                    </div>
-                </div>              
-            </div>
-        </div>
-    </div>
-</section>
-          <div class="container">
-                                                  <div class="team-info">
-                              <h3>I am an instrumentation physicist turned observational astronomer, currently Scientist and member of the Senior <a href="https://www.stsci.edu/stsci-research/research-directory" target="_blank">Research Staff</a> at the <a href="https://www.stsci.edu/" target="_blank">Space Telescope Science Institute (STScI)</a> in Baltimore.</h3> 
-                              <h3>I look for and study exoplanetary systems using high angular resolution and high contrast imaging techniques from space and from the ground. My collaborators and I characterize giant exoplanets, brown dwarfs and  circumstellar disks with direct imaging, sometimes combined with spectroscopy and/or polarimetry. Expanding our understanding of the demographics and atmospher composition of exoplanets gives clews on their formation and migration mechanisms. </h3> 
-                               <h3>Functionally I lead coronagraphy efforts on two NASA Astrophysics flagship missions: The <a href="https://science.nasa.gov/mission/webb/" target="_blank">James Webb Space Telescope or "JWST"</a> (launched end of 2021) and the <a href="https://science.nasa.gov/mission/roman-space-telescope/" target="_blank">Nancy Grace Roman Space Telescope</a> (to be launched at the end of 2026).</h3> 
-                               <h3>With <a href="https://science.nasa.gov/mission/webb/" target="_blank">Webb</a> we are now starting to image more mature giant planets in the infrared in thermal emission.  With the <a href="https://science.nasa.gov/mission/roman-space-telescope/coronagraph/" target="_blank">Roman Coronagraph</a> we will hopefully image a few in visible reflected light, just like we see Jupiter in the night sky!</h3> 
-                               <br>
-                               <center><small2>Views expressed here are my own, not that of STScI, AURA, NASA, ESO, ESA</small2></center>    
-        </div>  
-     </div>  
-     <!-- FEATURE -->
-     <section id="about" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title">
-                              <h1>About me, what I do</h1>
-                         </div>
-                    </div>
-                    <div class="col-md-9 col-sm-9">
-                         <ul class="nav nav-tabs" role="tablist">
-                              <li class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Education</a></li>
-
-                              <li><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Appointments</a></li>
-
-                              <li><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Observatory Roles</a></li>
-
-                              <li><a href="#tab04" aria-controls="tab04" role="tab" data-toggle="tab">Service</a></li>
-
-                              <li><a href="#tab05" aria-controls="tab04" role="tab" data-toggle="tab">Mentoring</a></li>
-
-                              <li><a href="#tab06" aria-controls="tab04" role="tab" data-toggle="tab">Teaching</a></li>
-
-                              <li><a href="#tab07" aria-controls="tab04" role="tab" data-toggle="tab">Outside of work</a></li>
                          </ul>
-
-                         <div class="tab-content">
-                              <div class="tab-pane active" id="tab01" role="tabpanel">
-                                   <div class="tab-pane-item">
-                                        <h3><a href="https://www.univ-lyon1.fr/en" target="_blank">Université Claude Bernard Lyon-I, France</a></h3>
-                                        <h4><b>PhD in Physics & Astrophysics (2005) </b><small><i>Doctorat</i></small></h4>
-                                        <small style="margin-left: 25px;">On sky validation of the polychromatic laser guide star concept for adaptive optics</small>
-                                        <p style="margin-left: 25px;">Advisor: Renaud Foy &dagger;</p>
-                                   </div>
-                                    <div class="tab-pane-item">
-                                        <h3><a href="https://www.univ-grenoble-alpes.fr/english" target="_blank">Université Grenoble Alpes, France</a></h3>
-                                        <h4><b>Master's in Astrophysics (2001) </b><small><i>DEA Astrophysique et Milieux Dilués</i></small></h4>
-                                        <h3><a href="https://www.utah.edu/" target="_blank">University of Utah, USA</a></h3>
-                                        <h4><b>Master of Science in Instrumentation Physics (2000) </b> </h4>
-                                        <h3><a href="https://www.univ-smb.fr/en/" target="_blank">Université Savoie Mont Blanc, France</a></h3>
-                                        <h4><b>Technology Degree in  Physical Measurements (1998) </b><small><i>DUT Mesures Physiques</i></small></h4>
-                                   </div>
-                              </div>
-
-
-                               <div class="tab-pane" id="tab02" role="tabpanel">
-                                   <div class="tab-pane-item">
-                                        <small>Post PhD positions I have held since 2006:</small>
-                                        <h3>
-                                        <a href="https://www.stsci.edu/" target="_blank">
-                                        Space Telescope Science Institute, USA
-                                        <img src="images/space-telescope-science-institute-logo.png" class="owl-item" alt="STScI logo" width="60"> 7 years, 10 months <small>and counting</small>
-                                        </a>
-                                        </h3>
-                                        <h4> <b>Scientist</b> <small>(Full)</small> (June 2023 - Present) <small>Long Term Senior Research Staff</small></h4>
-                                        <h4> STScI Scientist III (October 2020 - June 2023) <small>Senior Research Staff</small></h4>
-                                        <h4> Support Scientist (August 2017 - October 2020) <small>Senior Research Staff</small></h4>
-                                   </div>
-                                    <div class="tab-pane-item">
-                                        <h3><a href="https://www.eso.org/" target="_blank">European Southern Observatory, Chile
-                                        <img src="images/eso.png" class="owl-item" alt="ESO logo" width="60"> 8 years
-                                        </a></h3>
-                                        <h4> <b>Operations Staff Astronomer</b> (August 2009 - July 2017) <small>Paranal Adaptive Optics Specialist</small></h4>
-                                   </div>
-                                    <div class="tab-pane-item">
-                                        <h3><a href="https://www.ipn.mx/" target="_blank">Instituto Politécnico Nacional, Mexico
-                                        <img src="images/instituto-politecnico-nacional-logo.png" class="owl-item" alt="IPN logo" width="45"> 9 months
-                                        </a></h3>
-                                        <h4> <b>Assistant Professor</b> (October 2008 - June 2009) <small>Profesor/Investigador Titular A at <a href="https://www.esfm.ipn.mx/" target="_blank">ESFM</a></small></h4>
-                                   </div>
-                                    <div class="tab-pane-item">
-                                        <h3><a href="https://www.unam.mx/" target="_blank">Universidad Nacional Autónoma de Mexico (UNAM), Mexico
-                                        <img src="images/UNAM.png" class="owl-item" alt="IPN logo" width="60"> 2 years
-                                        </a></h3>
-                                        <h4> <b>Postdoctoral Fellow</b> (october 2006 - September 2008) <small>Investigador Postdoctoral at IA-UNAM</small></h4>
-                                   </div>
-                              </div>
-
-                              
-                              <div class="tab-pane" id="tab03" role="tabpanel">
-                                   <div class="tab-pane-item">
-                                        <small>Main roles I have had in the past 16 years at STScI and ESO:</small>
-                                        <h3>
-                                        <a href="https://www.stsci.edu/" target="_blank">
-                                        Space Telescope Science Institute, USA
-                                        <img src="images/space-telescope-science-institute-logo.png" class="owl-item" alt="STScI logo" width="60"> 
-                                        </a>
-                                        </h3>
-                                        <h4> <b>JWST/NIRCam Instrument Scientist</b> (2017 - Present) <small>Documentation, User support</small></h4>
-                                        <h4> <b>JWST/NIRCam Coronagraphy Lead</b>  (2017 - Present) <small>Commissioning, Calibrations, Pipeline</small></h4>
-                                        <h4> <b>JWST Coronagraphs Working Group Lead</b> (2017 - Present) <small>NIRCam and MIRI</small></h4>
-                                        <h4> <b>Roman Coronagraph Expert and Liaison</b> (2017 - Present) <small>To Science Investigation Teams (SITs), Community Participation Program (CPP), CTC and SSC</small></h4>
-                                   </div>
-                                    <div class="tab-pane-item">
-                                        <h3><a href="https://www.eso.org/" target="_blank">European Southern Observatory, Chile
-                                        <img src="images/eso.png" class="owl-item" alt="ESO logo" width="60"> 
-                                        </a></h3>
-                                        <h4> <b>Paranal Lead Instrument Scientist of VLT/SPHERE</b> (2014-2017) <small>User Support, Commissioning, Tests, Calibrations</small></h4>
-                                        <h4> <b>Paranal Lead Instrument Scientist of VLT/NACO</b> (2009-2015) <small>User Support, (re)Commissioning, Tests, Calibrations</small></h4>
-                                        <h4> <b>Adaptive Optics Group Coordinator</b> (2009 - 2016) <small>Commissioning, User support</small></h4>
-                                        <h4> <b>UT4 Coordinator</b> (2012-2013) </h4>
-                                        <h4> <b>UT3 Coordinator</b> (2014-2015) </h4>
-                                        <h4> <b>Shift Coordinator</b> (2013 - 2017) <small>Lead/management of the whole VLT/VLTI/VISTA/VST operations at night and/or day.</small></h4>
-                                   </div>
-                              </div>
-                              <div class="tab-pane" id="tab04" role="tabpanel">
-                                   <div class="tab-pane-item">
-                                        <small>Service to the community or to the organizations I work(ed) for:</small>
-                                        <h3>
-                                        <a href="https://www.stsci.edu/" target="_blank">
-                                        Space Telescope Science Institute, USA
-                                        <img src="images/space-telescope-science-institute-logo.png" class="owl-item" alt="STScI logo" width="60"> 
-                                        </a>
-                                        </h3>
-                                        <h4> <b>JWST/NIRCam Instrument Scientist</b> <small>(Full)</small> (2017 - Present) <small>Documentation, User support</small></h4>
-                                        <h4> <b>JWST/NIRCam Coronagraphy Lead</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, Calibrations, Pipeline</small></h4>
-                                        <h4> <b>JWST Coronagraphs Working Group Lead</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
-                                        <h4> <b>Roman Coronagraph Expert and Liaison</b> <small>(Full)</small> (2017 - Present) <small>To Science Investigation Teams (SITs), Community Participation Program (CPP), CTC and SSC</small></h4>
-                                   </div>
-                                    <div class="tab-pane-item">
-                                        <h3><a href="https://www.eso.org/" target="_blank">European Southern Observatory, Chile
-                                        <img src="images/eso.png" class="owl-item" alt="ESO logo" width="60"> 
-                                        </a></h3>
-                                        <h4> <b>Paranal ​Lead Instrument Scientist of VLT/NACO</b> (2009-2015) <small>User Support, (re)Commissioning, Tests, Calibrations</small></h4>
-                                        <h4> <b>Adaptive Optics Group Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, User support</small></h4>
-                                        <h4> <b>UT4 and UT3 Coordinator</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
-                                        <h4> <b>Shift Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Lead/management of the whole operations at night and/or day (2013-2017).</small></h4>
-                                   </div>
-                              </div>
-                              <div class="tab-pane" id="tab05" role="tabpanel">
-                                   <div class="tab-pane-item">
-                                        <small>Service to the community or to the organizations I work(ed) for:</small>
-                                        <h3>
-                                        <a href="https://www.stsci.edu/" target="_blank">
-                                        Space Telescope Science Institute, USA
-                                        <img src="images/space-telescope-science-institute-logo.png" class="owl-item" alt="STScI logo" width="60"> 
-                                        </a>
-                                        </h3>
-                                        <h4> <b>JWST/NIRCam Instrument Scientist</b> <small>(Full)</small> (2017 - Present) <small>Documentation, User support</small></h4>
-                                        <h4> <b>JWST/NIRCam Coronagraphy Lead</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, Calibrations, Pipeline</small></h4>
-                                        <h4> <b>JWST Coronagraphs Working Group Lead</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
-                                        <h4> <b>Roman Coronagraph Expert and Liaison</b> <small>(Full)</small> (2017 - Present) <small>To Science Investigation Teams (SITs), Community Participation Program (CPP), CTC and SSC</small></h4>
-                                   </div>
-                                    <div class="tab-pane-item">
-                                        <h3><a href="https://www.eso.org/" target="_blank">European Southern Observatory, Chile
-                                        <img src="images/eso.png" class="owl-item" alt="ESO logo" width="60"> 
-                                        </a></h3>
-                                        <h4> <b>Paranal ​Lead Instrument Scientist of VLT/NACO</b> (2009-2015) <small>User Support, (re)Commissioning, Tests, Calibrations</small></h4>
-                                        <h4> <b>Adaptive Optics Group Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, User support</small></h4>
-                                        <h4> <b>UT4 and UT3 Coordinator</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
-                                        <h4> <b>Shift Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Lead/management of the whole operations at night and/or day (2013-2017).</small></h4>
-                                   </div>
-                              </div>
-                              <div class="tab-pane" id="tab06" role="tabpanel">
-                                   <div class="tab-pane-item">
-                                        <small>Service to the community or to the organizations I work(ed) for:</small>
-                                        <h3>
-                                        <a href="https://www.stsci.edu/" target="_blank">
-                                        Space Telescope Science Institute, USA
-                                        <img src="images/space-telescope-science-institute-logo.png" class="owl-item" alt="STScI logo" width="60"> 
-                                        </a>
-                                        </h3>
-                                        <h4> <b>JWST/NIRCam Instrument Scientist</b> <small>(Full)</small> (2017 - Present) <small>Documentation, User support</small></h4>
-                                        <h4> <b>JWST/NIRCam Coronagraphy Lead</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, Calibrations, Pipeline</small></h4>
-                                        <h4> <b>JWST Coronagraphs Working Group Lead</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
-                                        <h4> <b>Roman Coronagraph Expert and Liaison</b> <small>(Full)</small> (2017 - Present) <small>To Science Investigation Teams (SITs), Community Participation Program (CPP), CTC and SSC</small></h4>
-                                   </div>
-                                    <div class="tab-pane-item">
-                                        <h3><a href="https://www.eso.org/" target="_blank">European Southern Observatory, Chile
-                                        <img src="images/eso.png" class="owl-item" alt="ESO logo" width="60"> 
-                                        </a></h3>
-                                        <h4> <b>Paranal ​Lead Instrument Scientist of VLT/NACO</b> (2009-2015) <small>User Support, (re)Commissioning, Tests, Calibrations</small></h4>
-                                        <h4> <b>Adaptive Optics Group Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, User support</small></h4>
-                                        <h4> <b>UT4 and UT3 Coordinator</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
-                                        <h4> <b>Shift Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Lead/management of the whole operations at night and/or day (2013-2017).</small></h4>
-                                   </div>
-                              </div>
-                                  <div class="tab-pane" id="tab07" role="tabpanel">
-                                   <div class="tab-pane-item">
-                                        <small>researchers can have a life too </small>
-                                        <div style="margin-left: 175px; margin-top: -28px; align-self: flex-end;">
-                                        <ul class="social-icon">
-                                   <li><a href="https://www.instagram.com/juliengiraffe/" target="_blank" class="fab fa-instagram"></a></li>
-                              </ul>
-                              <br>
-                         </div>
-                                        <h4>I don't read merely enough books. I am an avid amateur of "world" music, jazz and traditional music forms from everywhere. I play, badly, the violin since age 6. I enjoy taking photographs, practicing/playing sports, hiking, cooking and eating! More than anything, I love to travel and embrace different cultures, especially with my family. Recently (and more so with covid), my wife, kids and I took up gardening and urban "mini farming". Doing stuff with my hands seems to give a nice break and breath to my mind. </h4>
-                                   </div>
-                                   <div class="tab-pane-item">
-                                   <div style="display: flex; align-items: flex-end;">
-                                   <!-- Image with Link -->
-                                   <a href="https://www.baltimoremagazine.com/section/homegarden/baltimoreans-embrace-backyard-chicken-raising-trend/" target="_blank">
-                                   <img src="https://www.baltimoremagazine.com/wp-content/uploads/2022/08/chickensmainillo_CMYK.jpg" alt="Description" style="width:150px; border:solid 1px; margin-left: 50px; height:auto; class="hover-shadow cursor">
-
-                                     <!-- Text aligned to bottom right -->
-                                   <div style="margin-left: 10px; align-self: flex-end;">
-                                         <p style="margin: 0;">Baltimore Magazine article (2022)</a> about our backyard chicken endeavor.</p>
-                                         <a href="https://www.baltimoremagazine.com/author/christiannamccausland/" target="_blank" style="font-size: 12px; color: gray;">By Christianna McCausland</a>
-                                   </div>      
-                                   </div>
-                                   </div>
-                              </div>
-                              </div>
-                              </div>
-
-                    <div class="col-md-3 col-sm-3">
-                         <div class="testimonial-item2">
-                              <center>
-                              <img src="images/JulienGirard_headshot2022_sqsm.jpeg" class="img-responsive" alt="Julien H. Girard at STScI in 2022"> 
-                              <h4>Curriculum Vitae (<a href="https://www.utah.edu/" target="_blank">PDF</a>)</h4>
-                              </center>                 
-                         </div>
                     </div>
 
                </div>
+          </section>
+
+
+          <!-- FEATURE -->
+          <section id="home" data-stellar-background-ratio="1.0">
+           <!-- Video background -->
+           <div class="video-wrapper">
+            <video id="homeVideo" autoplay muted loop playsinline>
+             <source src="images/videos/video2.mp4" type="video/mp4">
+             <!-- <source src="images/videos/banner1.mp4" type="video/mp4"> -->
+
+                  I am sorry but apparently your browser does not support HTML5 video.
+             </video>
+             <div class="overlay"></div>
+             <div class="container">
+                  <div class="row">
+                   <div class="col-md-offset-3 col-md-6 col-sm-12">
+                    <div class="home-info">
+                     <h1>Julien H. Girard</h1>
+                     <h3>astronomer</h3>
+                     <!-- Play/Pause Button -->
+                     <button class="play-pause">Pause</button>
+
+                     <!-- Video Credit -->
+                     <div class="video-credit">
+                      <a href="http://www.nightscape-timelapse.com/" target="_blank">
+                       Time lapse by Dominique Joubert 2015
+                  </a>
+             </div>
+        </div>
+   </div>              
+</div>
+</div>
+</div>
+</section>
+<div class="container">
+     <div class="team-info">
+          <h3>I am an instrumentation physicist turned observational astronomer, currently Scientist and member of the Senior <a href="https://www.stsci.edu/stsci-research/research-directory" target="_blank">Research Staff</a> at the <a href="https://www.stsci.edu/" target="_blank">Space Telescope Science Institute (STScI)</a> in Baltimore.</h3> 
+          <h3>I look for and study exoplanetary systems using high angular resolution and high contrast imaging techniques from space and from the ground. My collaborators and I characterize giant exoplanets, brown dwarfs and  circumstellar disks with direct imaging, sometimes combined with spectroscopy and/or polarimetry. Expanding our understanding of the demographics and atmospher composition of exoplanets gives clews on their formation and migration mechanisms. </h3> 
+          <h3>Functionally I lead coronagraphy efforts on two NASA Astrophysics flagship missions: The <a href="https://science.nasa.gov/mission/webb/" target="_blank">James Webb Space Telescope or "JWST"</a> (launched end of 2021) and the <a href="https://science.nasa.gov/mission/roman-space-telescope/" target="_blank">Nancy Grace Roman Space Telescope</a> (to be launched at the end of 2026).</h3> 
+          <h3>With <a href="https://science.nasa.gov/mission/webb/" target="_blank">Webb</a> we are now starting to image more mature giant planets in the infrared in thermal emission.  With the <a href="https://science.nasa.gov/mission/roman-space-telescope/coronagraph/" target="_blank">Roman Coronagraph</a> we will hopefully image a few in visible reflected light, just like we see Jupiter in the night sky!</h3> 
+          <br>
+          <center><small2>Views expressed here are my own, not that of STScI, AURA, NASA, ESO, ESA</small2></center>    
+     </div>  
+</div>  
+<!-- FEATURE -->
+<section id="about" data-stellar-background-ratio="0.5">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <div class="section-title">
+                         <h1>About me, what I do</h1>
+                    </div>
+               </div>
+               <div class="col-md-9 col-sm-9">
+                    <ul class="nav nav-tabs" role="tablist">
+                         <li class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Education</a></li>
+
+                         <li><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Appointments</a></li>
+
+                         <li><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Observatory Roles</a></li>
+
+                         <li><a href="#tab04" aria-controls="tab04" role="tab" data-toggle="tab">Service</a></li>
+
+                         <li><a href="#tab05" aria-controls="tab04" role="tab" data-toggle="tab">Mentoring</a></li>
+
+                         <li><a href="#tab06" aria-controls="tab04" role="tab" data-toggle="tab">Teaching</a></li>
+
+                         <li><a href="#tab07" aria-controls="tab04" role="tab" data-toggle="tab">Outside of work</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                         <div class="tab-pane active" id="tab01" role="tabpanel">
+                              <div class="tab-pane-item">
+                                   <h3><a href="https://www.univ-lyon1.fr/en" target="_blank">Université Claude Bernard Lyon-I, France</a></h3>
+                                   <h4><b>PhD in Physics & Astrophysics (2005) </b><small><i>Doctorat</i></small></h4>
+                                   <small style="margin-left: 25px;">On sky validation of the polychromatic laser guide star concept for adaptive optics</small>
+                                   <p style="margin-left: 25px;">Advisor: Renaud Foy &dagger;</p>
+                              </div>
+                              <div class="tab-pane-item">
+                                   <h3><a href="https://www.univ-grenoble-alpes.fr/english" target="_blank">Université Grenoble Alpes, France</a></h3>
+                                   <h4><b>Master's in Astrophysics (2001) </b><small><i>DEA Astrophysique et Milieux Dilués</i></small></h4>
+                                   <h3><a href="https://www.utah.edu/" target="_blank">University of Utah, USA</a></h3>
+                                   <h4><b>Master of Science in Instrumentation Physics (2000) </b> </h4>
+                                   <h3><a href="https://www.univ-smb.fr/en/" target="_blank">Université Savoie Mont Blanc, France</a></h3>
+                                   <h4><b>Technology Degree in  Physical Measurements (1998) </b><small><i>DUT Mesures Physiques</i></small></h4>
+                              </div>
+                         </div>
+
+
+                         <div class="tab-pane" id="tab02" role="tabpanel">
+                              <div class="tab-pane-item">
+                                   <small>Post PhD positions I have held since 2006:</small>
+                                   <h3>
+                                        <a href="https://www.stsci.edu/" target="_blank">
+                                             Space Telescope Science Institute, USA
+                                             <img src="images/logos/space-telescope-science-institute-logo.png" class="owl-item" alt="STScI logo" width="60"> 7 years, 10 months <small>and counting</small>
+                                        </a>
+                                   </h3>
+                                   <h4> <b>Scientist</b> <small>(Full)</small> (June 2023 - Present) <small>Long Term Senior Research Staff</small></h4>
+                                   <h4> STScI Scientist III (October 2020 - June 2023) <small>Senior Research Staff</small></h4>
+                                   <h4> Support Scientist (August 2017 - October 2020) <small>Senior Research Staff</small></h4>
+                              </div>
+                              <div class="tab-pane-item">
+                                   <h3><a href="https://www.eso.org/" target="_blank">European Southern Observatory, Chile
+                                        <img src="images/logos/eso.png" class="owl-item" alt="ESO logo" width="60"> 8 years
+                                   </a></h3>
+                                   <h4> <b>Operations Staff Astronomer</b> (August 2009 - July 2017) <small>Paranal Adaptive Optics Specialist</small></h4>
+                              </div>
+                              <div class="tab-pane-item">
+                                   <h3><a href="https://www.ipn.mx/" target="_blank">Instituto Politécnico Nacional, Mexico
+                                        <img src="images/logos/instituto-politecnico-nacional-logo.png" class="owl-item" alt="IPN logo" width="45"> 9 months
+                                   </a></h3>
+                                   <h4> <b>Assistant Professor</b> (October 2008 - June 2009) <small>Profesor/Investigador Titular A at <a href="https://www.esfm.ipn.mx/" target="_blank">ESFM</a></small></h4>
+                              </div>
+                              <div class="tab-pane-item">
+                                   <h3><a href="https://www.unam.mx/" target="_blank">Universidad Nacional Autónoma de Mexico (UNAM), Mexico
+                                        <img src="images/logos/UNAM.png" class="owl-item" alt="IPN logo" width="60"> 2 years
+                                   </a></h3>
+                                   <h4> <b>Postdoctoral Fellow</b> (october 2006 - September 2008) <small>Investigador Postdoctoral at IA-UNAM</small></h4>
+                              </div>
+                         </div>
+
+
+                         <div class="tab-pane" id="tab03" role="tabpanel">
+                              <div class="tab-pane-item">
+                                   <small>Main roles I have had in the past 16 years at STScI and ESO:</small>
+                                   <h3>
+                                        <a href="https://www.stsci.edu/" target="_blank">
+                                             Space Telescope Science Institute, USA
+                                             <img src="images/logos/space-telescope-science-institute-logo.png" class="owl-item" alt="STScI logo" width="60"> 
+                                        </a>
+                                   </h3>
+                                   <h4> <b>JWST/NIRCam Instrument Scientist</b> (2017 - Present) <small>Documentation, User support</small></h4>
+                                   <h4> <b>JWST/NIRCam Coronagraphy Lead</b>  (2017 - Present) <small>Commissioning, Calibrations, Pipeline</small></h4>
+                                   <h4> <b>JWST Coronagraphs Working Group Lead</b> (2017 - Present) <small>NIRCam and MIRI</small></h4>
+                                   <h4> <b>Roman Coronagraph Expert and Liaison</b> (2017 - Present) <small>To Science Investigation Teams (SITs), Community Participation Program (CPP), CTC and SSC</small></h4>
+                              </div>
+                              <div class="tab-pane-item">
+                                   <h3><a href="https://www.eso.org/" target="_blank">European Southern Observatory, Chile
+                                        <img src="images/logos/eso.png" class="owl-item" alt="ESO logo" width="60"> 
+                                   </a></h3>
+                                   <h4> <b>Paranal Lead Instrument Scientist of VLT/SPHERE</b> (2014-2017) <small>User Support, Commissioning, Tests, Calibrations</small></h4>
+                                   <h4> <b>Paranal Lead Instrument Scientist of VLT/NACO</b> (2009-2015) <small>User Support, (re)Commissioning, Tests, Calibrations</small></h4>
+                                   <h4> <b>Adaptive Optics Group Coordinator</b> (2009 - 2016) <small>Commissioning, User support</small></h4>
+                                   <h4> <b>UT4 Coordinator</b> (2012-2013) </h4>
+                                   <h4> <b>UT3 Coordinator</b> (2014-2015) </h4>
+                                   <h4> <b>Shift Coordinator</b> (2013 - 2017) <small>Lead/management of the whole VLT/VLTI/VISTA/VST operations at night and/or day.</small></h4>
+                              </div>
+                         </div>
+                         <div class="tab-pane" id="tab04" role="tabpanel">
+                              <div class="tab-pane-item">
+                                   <small>Service to the community or to the organizations I work(ed) for:</small>
+                                   <h3>
+                                        <a href="https://www.stsci.edu/" target="_blank">
+                                             Space Telescope Science Institute, USA
+                                             <img src="images/logos/space-telescope-science-institute-logo.png" class="owl-item" alt="STScI logo" width="60"> 
+                                        </a>
+                                   </h3>
+                                   <h4> <b>JWST/NIRCam Instrument Scientist</b> <small>(Full)</small> (2017 - Present) <small>Documentation, User support</small></h4>
+                                   <h4> <b>JWST/NIRCam Coronagraphy Lead</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, Calibrations, Pipeline</small></h4>
+                                   <h4> <b>JWST Coronagraphs Working Group Lead</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
+                                   <h4> <b>Roman Coronagraph Expert and Liaison</b> <small>(Full)</small> (2017 - Present) <small>To Science Investigation Teams (SITs), Community Participation Program (CPP), CTC and SSC</small></h4>
+                              </div>
+                              <div class="tab-pane-item">
+                                   <h3><a href="https://www.eso.org/" target="_blank">European Southern Observatory, Chile
+                                        <img src="images/logos/eso.png" class="owl-item" alt="ESO logo" width="60"> 
+                                   </a></h3>
+                                   <h4> <b>Paranal ​Lead Instrument Scientist of VLT/NACO</b> (2009-2015) <small>User Support, (re)Commissioning, Tests, Calibrations</small></h4>
+                                   <h4> <b>Adaptive Optics Group Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, User support</small></h4>
+                                   <h4> <b>UT4 and UT3 Coordinator</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
+                                   <h4> <b>Shift Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Lead/management of the whole operations at night and/or day (2013-2017).</small></h4>
+                              </div>
+                         </div>
+                         <div class="tab-pane" id="tab05" role="tabpanel">
+                              <div class="tab-pane-item">
+                                   <small>Service to the community or to the organizations I work(ed) for:</small>
+                                   <h3>
+                                        <a href="https://www.stsci.edu/" target="_blank">
+                                             Space Telescope Science Institute, USA
+                                             <img src="images/logos/space-telescope-science-institute-logo.png" class="owl-item" alt="STScI logo" width="60"> 
+                                        </a>
+                                   </h3>
+                                   <h4> <b>JWST/NIRCam Instrument Scientist</b> <small>(Full)</small> (2017 - Present) <small>Documentation, User support</small></h4>
+                                   <h4> <b>JWST/NIRCam Coronagraphy Lead</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, Calibrations, Pipeline</small></h4>
+                                   <h4> <b>JWST Coronagraphs Working Group Lead</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
+                                   <h4> <b>Roman Coronagraph Expert and Liaison</b> <small>(Full)</small> (2017 - Present) <small>To Science Investigation Teams (SITs), Community Participation Program (CPP), CTC and SSC</small></h4>
+                              </div>
+                              <div class="tab-pane-item">
+                                   <h3><a href="https://www.eso.org/" target="_blank">European Southern Observatory, Chile
+                                        <img src="images/logos/eso.png" class="owl-item" alt="ESO logo" width="60"> 
+                                   </a></h3>
+                                   <h4> <b>Paranal ​Lead Instrument Scientist of VLT/NACO</b> (2009-2015) <small>User Support, (re)Commissioning, Tests, Calibrations</small></h4>
+                                   <h4> <b>Adaptive Optics Group Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, User support</small></h4>
+                                   <h4> <b>UT4 and UT3 Coordinator</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
+                                   <h4> <b>Shift Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Lead/management of the whole operations at night and/or day (2013-2017).</small></h4>
+                              </div>
+                         </div>
+                         <div class="tab-pane" id="tab06" role="tabpanel">
+                              <div class="tab-pane-item">
+                                   <small>Service to the community or to the organizations I work(ed) for:</small>
+                                   <h3>
+                                        <a href="https://www.stsci.edu/" target="_blank">
+                                             Space Telescope Science Institute, USA
+                                             <img src="images/logos/space-telescope-science-institute-logo.png" class="owl-item" alt="STScI logo" width="60"> 
+                                        </a>
+                                   </h3>
+                                   <h4> <b>JWST/NIRCam Instrument Scientist</b> <small>(Full)</small> (2017 - Present) <small>Documentation, User support</small></h4>
+                                   <h4> <b>JWST/NIRCam Coronagraphy Lead</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, Calibrations, Pipeline</small></h4>
+                                   <h4> <b>JWST Coronagraphs Working Group Lead</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
+                                   <h4> <b>Roman Coronagraph Expert and Liaison</b> <small>(Full)</small> (2017 - Present) <small>To Science Investigation Teams (SITs), Community Participation Program (CPP), CTC and SSC</small></h4>
+                              </div>
+                              <div class="tab-pane-item">
+                                   <h3><a href="https://www.eso.org/" target="_blank">European Southern Observatory, Chile
+                                        <img src="images/logos/eso.png" class="owl-item" alt="ESO logo" width="60"> 
+                                   </a></h3>
+                                   <h4> <b>Paranal ​Lead Instrument Scientist of VLT/NACO</b> (2009-2015) <small>User Support, (re)Commissioning, Tests, Calibrations</small></h4>
+                                   <h4> <b>Adaptive Optics Group Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Commissioning, User support</small></h4>
+                                   <h4> <b>UT4 and UT3 Coordinator</b> <small>(Full)</small> (2017 - Present) <small>NIRCam and MIRI</small></h4>
+                                   <h4> <b>Shift Coordinator</b> <small>(Full)</small> (2017 - Present) <small>Lead/management of the whole operations at night and/or day (2013-2017).</small></h4>
+                              </div>
+                         </div>
+                         <div class="tab-pane" id="tab07" role="tabpanel">
+                              <div class="tab-pane-item">
+                                   <small>researchers can have a life too </small>
+                                   <div style="margin-left: 175px; margin-top: -28px; align-self: flex-end;">
+                                        <ul class="social-icon">
+                                             <li><a href="https://www.instagram.com/juliengiraffe/" target="_blank" class="fab fa-instagram"></a></li>
+                                        </ul>
+                                        <br>
+                                   </div>
+                                   <h4>I don't read merely enough books. I am an avid amateur of "world" music, jazz and traditional music forms from everywhere. I play, badly, the violin since age 6. I enjoy taking photographs, practicing/playing sports, hiking, cooking and eating! More than anything, I love to travel and embrace different cultures, especially with my family. Recently (and more so with covid), my wife, kids and I took up gardening and urban "mini farming". Doing stuff with my hands seems to give a nice break and breath to my mind. </h4>
+                              </div>
+                              <div class="tab-pane-item">
+                                   <div style="display: flex; align-items: flex-end;">
+                                        <!-- Image with Link -->
+                                        <a href="https://www.baltimoremagazine.com/section/homegarden/baltimoreans-embrace-backyard-chicken-raising-trend/" target="_blank">
+                                             <img src="https://www.baltimoremagazine.com/wp-content/uploads/2022/08/chickensmainillo_CMYK.jpg" alt="Description" style="width:150px; border:solid 1px; margin-left: 50px; height:auto; class="hover-shadow cursor">
+
+                                             <!-- Text aligned to bottom right -->
+                                             <div style="margin-left: 10px; align-self: flex-end;">
+                                                 <p style="margin: 0;">Baltimore Magazine article (2022)</a> about our backyard chicken endeavor.</p>
+                                                 <a href="https://www.baltimoremagazine.com/author/christiannamccausland/" target="_blank" style="font-size: 12px; color: gray;">By Christianna McCausland</a>
+                                            </div>      
+                                       </div>
+                                  </div>
+                             </div>
+                        </div>
+                   </div>
+
+                   <div class="col-md-3 col-sm-3">
+                    <div class="testimonial-item2">
+                         <center>
+                              <img src="images/work/JulienGirard_headshot2022_sqsm.jpeg" class="img-responsive" alt="Julien H. Girard at STScI in 2022"> 
+                              <h4>Curriculum Vitae (<a href="https://www.utah.edu/" target="_blank">PDF</a>)</h4>
+                         </center>                 
+                    </div>
+               </div>
+
           </div>
-     </section>
+     </div>
+</section>
 
 
-     <!-- ABOUT -->
-    <section id="research" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
+<!-- ABOUT -->
+<section id="research" data-stellar-background-ratio="0.5">
+     <div class="container">
+          <div class="row">
 
-                    <div class="col-md-offset-3 col-md-6 col-sm-12">
-                         <div class="section-title">
-                              <center>
+               <div class="col-md-offset-3 col-md-6 col-sm-12">
+                    <div class="section-title">
+                         <center>
                               <h1>Research Highlights</h1>  
-                              </center>
+                         </center>
                               <!--
                               <h3>My research focuses on constraining our understanding of the demographics, formation and migration mechanisms of long period giant extra-solar planets and brown dwarfs in young and dusty circumstellar environments (e.g. proto-planetary disks). For that, my colleagues and I use high angular/contrast imaging/spectroscopy/polarimetry techniques to image or detect directly photons from these planets.</h3> -->
                          </div>
@@ -372,86 +388,86 @@
                     <div class="col-md-4 col-sm-4">
                          <div class="team-thumb">
                               <a href="https://www.space.com/newborn-alien-planets-birth-photo.html" target="_blank">
-                              <img src="https://stsci-opo.org/STScI-01EVSW8Y0P50P82RJYV08HCE08.png" class="img-responsive" alt="PDS 70 bc"></a>
-                              <div class="team-info team-thumb-up">
-                                   <h2>Forming Exoplanets</h2>
-                                   <small>PDS 70 b and c</small>
-                                   <p>With the extreme Adaptive Optics SPHERE instrument at the VLT we imaged (in the near-infrared) the transition disk and for the first time planet b in its large disk gap, south of the star.</p>
-                                   <p><a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...617A..44K/abstract" target=”_blank” class="section-btn pricing-btn2">Keppler+ 2018</a> <a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...617L...2M/abstract" target=”_blank” class="section-btn pricing-btn2">Müller+ 2018, A&A</a></p>
-                                   <p>A year later with the integral field instrument MUSE also at the VLT we imaged (in H⍺ at 656 nm) not one but two planets in the large gap, south of the star. (Haffert et al. 2018)</p>
-                                   <p><a href="https://ui.adsabs.harvard.edu/abs/2019NatAs...3..749H/abstract" target=”_blank” class="section-btn pricing-btn2">Haffert+ 2019, Nature Astronomy</a> </p>
-                                   <p><a href="https://ui.adsabs.harvard.edu/abs/2020SPIE11448E..08G/abstract" target=”_blank” class="section-btn pricing-btn2">Girard+ 2020, SPIE</a></p>
-                                   <p>These planets are forming "in-situ", probably by gravitational instability (of the circumstellar material). Learn more with this PBS/Nova Video from an interview I gave then or click on the image to read one of the press releases.</p>
-                                   <iframe width="100%" height="220" src="https://www.youtube.com/embed/Roiiev8RoNE?si=wuEz-ZTYFvi_ZYfe&amp;start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                   <img src="https://stsci-opo.org/STScI-01EVSW8Y0P50P82RJYV08HCE08.png" class="img-responsive" alt="PDS 70 bc"></a>
+                                   <div class="team-info team-thumb-up">
+                                        <h2>Forming Exoplanets</h2>
+                                        <small>PDS 70 b and c</small>
+                                        <p>With the extreme Adaptive Optics SPHERE instrument at the VLT we imaged (in the near-infrared) the transition disk and for the first time planet b in its large disk gap, south of the star.</p>
+                                        <p><a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...617A..44K/abstract" target=”_blank” class="section-btn pricing-btn2">Keppler+ 2018</a> <a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...617L...2M/abstract" target=”_blank” class="section-btn pricing-btn2">Müller+ 2018, A&A</a></p>
+                                        <p>A year later with the integral field instrument MUSE also at the VLT we imaged (in H⍺ at 656 nm) not one but two planets in the large gap, south of the star. (Haffert et al. 2018)</p>
+                                        <p><a href="https://ui.adsabs.harvard.edu/abs/2019NatAs...3..749H/abstract" target=”_blank” class="section-btn pricing-btn2">Haffert+ 2019, Nature Astronomy</a> </p>
+                                        <p><a href="https://ui.adsabs.harvard.edu/abs/2020SPIE11448E..08G/abstract" target=”_blank” class="section-btn pricing-btn2">Girard+ 2020, SPIE</a></p>
+                                        <p>These planets are forming "in-situ", probably by gravitational instability (of the circumstellar material). Learn more with this PBS/Nova Video from an interview I gave then or click on the image to read one of the press releases.</p>
+                                        <iframe width="100%" height="220" src="https://www.youtube.com/embed/Roiiev8RoNE?si=wuEz-ZTYFvi_ZYfe&amp;start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                    </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4">
-                         <div class="team-thumb">
-                              <div class="team-info team-thumb-down">
-                                   <h2>Brown dwarf cloud bands</h2>
-                                   <small><a href="https://ui.adsabs.harvard.edu/abs/2019NatAs...3..749H/abstract" target=”_blank”>Luhman 16 AB (WISE 1049AB)</a></small>
-                                   <p>Using the NACO instrument at the VLT, we observed Luhman 16 AB, the closest brown dwarf pair in polarimetry mode taking advantage of the infrared wavefront sensor to close the adaptive optics loop on the two brown dwarfs themselves separated by ~1-1.5 arcsecond.</p>
-                              </div>
-                              <a href="https://www.caltech.edu/about/news/bands-clouds-swirl-across-brown-dwarfs-surface" target=”_blank”><img src="https://caltech-prod.s3.amazonaws.com/main/images/BD_Art.max-1400x800.jpg" class="img-responsive" alt="Luhman 16 AB"></a>
-                              <div class="team-info">
-                              <p>We detect a tiny signal of circular polarization on the A component which we interpret as the presense of cloud bands (like Jupiter's). </p>
-                                   <a href="https://ui.adsabs.harvard.edu/abs/2019NatAs...3..749H/abstract" target=”_blank” class="section-btn pricing-btn2">Millar-Blanchaer, Girard+ 2020, ApJ</a>
-                              <br>
-                              <br>
-                              <p>Check the Caltech Press Release and Video.</p>
-                              <br>
-                              <iframe width="100%" height="200" src="https://www.youtube.com/embed/4tB1DMiMfRM?si=E51HEsD0OXZZ1EId&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                              <br>
-                              <br>
-                              <p>or click on the image to read the press release.</p>
-                              <br>
-
-                             </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4">
-                         <div class="team-thumb">
-                              <a  href="https://hub.jhu.edu/2025/03/17/webb-telescope-carbon-dioxide-exoplanet/" target="_blank"><img src="images/HR8799_balmer.png" class="img-responsive" alt="HR 8799 b c d e" height="600"></a>
-                              <div class="team-info team-thumb-up">
-                                   <h2>Giant Exoplanets with JWST/NIRCam</h2>
-                                   <small><a href="https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HR8799&submit=SIMBAD+search" target=”_blank”>HR 8799 b c d e</a></small>
-                                   <p>JWST is our largest space telescope but its primary mirror only 6.5m across. Moreover when using NIRCam's coronagraphs this the Lyot stop limits that to ~5.2m. Our angular resolution is thus affected but we compensate this loss thanks to the telescope's extreme stability and sensitivity in space. Then we apply all our PSF subtraction and post-processing technique to remove the stellar glare and detect planets 10,000 to 100,000 fainter than the host star.</p>
-                                   <a href="https://ui.adsabs.harvard.edu/abs/2019NatAs...3..749H/abstract" target=”_blank” class="section-btn pricing-btn2">Balmer+ 2025, AJ</a>
-                                   <br><br>
-                                   <p>In this work we were able to detect a strong drop in the spectral energy distribution of planet e between 4.1 and 4.3 µm, the evidence of the presence of Carbone Dioxide in its atmosphere. Click on the image below to access the NASA Press Release.</p>
-                                   <a  href="https://science.nasa.gov/missions/webb/nasas-webb-images-young-giant-exoplanets-detects-carbon-dioxide/" target="_blank"><img src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2025/webb-STScI-01JNH9FFX8QJ0GERTMZTDDZHZG-2K.jpg?w=1920&h=1080&fit=crop&crop=faces%2Cfocalpoint" class="img-responsive" alt="HR 8799 b c d e" height="600"></a>
                               </div>
                          </div>
+
+                         <div class="col-md-4 col-sm-4">
+                              <div class="team-thumb">
+                                   <div class="team-info team-thumb-down">
+                                        <h2>Brown dwarf cloud bands</h2>
+                                        <small><a href="https://ui.adsabs.harvard.edu/abs/2019NatAs...3..749H/abstract" target=”_blank”>Luhman 16 AB (WISE 1049AB)</a></small>
+                                        <p>Using the NACO instrument at the VLT, we observed Luhman 16 AB, the closest brown dwarf pair in polarimetry mode taking advantage of the infrared wavefront sensor to close the adaptive optics loop on the two brown dwarfs themselves separated by ~1-1.5 arcsecond.</p>
+                                   </div>
+                                   <a href="https://www.caltech.edu/about/news/bands-clouds-swirl-across-brown-dwarfs-surface" target=”_blank”><img src="https://caltech-prod.s3.amazonaws.com/main/images/BD_Art.max-1400x800.jpg" class="img-responsive" alt="Luhman 16 AB"></a>
+                                   <div class="team-info">
+                                        <p>We detect a tiny signal of circular polarization on the A component which we interpret as the presense of cloud bands (like Jupiter's). </p>
+                                        <a href="https://ui.adsabs.harvard.edu/abs/2019NatAs...3..749H/abstract" target=”_blank” class="section-btn pricing-btn2">Millar-Blanchaer, Girard+ 2020, ApJ</a>
+                                        <br>
+                                        <br>
+                                        <p>Check the Caltech Press Release and Video.</p>
+                                        <br>
+                                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/4tB1DMiMfRM?si=E51HEsD0OXZZ1EId&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <br>
+                                        <br>
+                                        <p>or click on the image to read the press release.</p>
+                                        <br>
+
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="col-md-4 col-sm-4">
+                              <div class="team-thumb">
+                                   <a  href="https://hub.jhu.edu/2025/03/17/webb-telescope-carbon-dioxide-exoplanet/" target="_blank"><img src="images/research/HR8799_balmer.png" class="img-responsive" alt="HR 8799 b c d e" height="600"></a>
+                                   <div class="team-info team-thumb-up">
+                                        <h2>Giant Exoplanets with JWST/NIRCam</h2>
+                                        <small><a href="https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HR8799&submit=SIMBAD+search" target=”_blank”>HR 8799 b c d e</a></small>
+                                        <p>JWST is our largest space telescope but its primary mirror only 6.5m across. Moreover when using NIRCam's coronagraphs this the Lyot stop limits that to ~5.2m. Our angular resolution is thus affected but we compensate this loss thanks to the telescope's extreme stability and sensitivity in space. Then we apply all our PSF subtraction and post-processing technique to remove the stellar glare and detect planets 10,000 to 100,000 fainter than the host star.</p>
+                                        <a href="https://ui.adsabs.harvard.edu/abs/2019NatAs...3..749H/abstract" target=”_blank” class="section-btn pricing-btn2">Balmer+ 2025, AJ</a>
+                                        <br><br>
+                                        <p>In this work we were able to detect a strong drop in the spectral energy distribution of planet e between 4.1 and 4.3 µm, the evidence of the presence of Carbone Dioxide in its atmosphere. Click on the image below to access the NASA Press Release.</p>
+                                        <a  href="https://science.nasa.gov/missions/webb/nasas-webb-images-young-giant-exoplanets-detects-carbon-dioxide/" target="_blank"><img src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2025/webb-STScI-01JNH9FFX8QJ0GERTMZTDDZHZG-2K.jpg?w=1920&h=1080&fit=crop&crop=faces%2Cfocalpoint" class="img-responsive" alt="HR 8799 b c d e" height="600"></a>
+                                   </div>
+                              </div>
+                         </div>
+
                     </div>
-                    
                </div>
-          </div>
-     </section>
+          </section>
 
-     <!-- TESTIMONIAL -->
-     <section id="projects" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
+          <!-- TESTIMONIAL -->
+          <section id="projects" data-stellar-background-ratio="0.5">
+               <div class="container">
+                    <div class="row">
 
-                    <div class="col-md-6 col-sm-12">
-                         <div class="testimonial-image"></div>
-                    </div>
+                         <div class="col-md-6 col-sm-12">
+                              <div class="testimonial-image"></div>
+                         </div>
 
-                    <div class="col-md-6 col-sm-12">
-                         <div class="testimonial-info">
-                              
-                              <div class="section-title">
-                                   <h1>Projects & Collaborations</h1>
-                              </div>
+                         <div class="col-md-6 col-sm-12">
+                              <div class="testimonial-info">
 
-                              <div class="owl-carousel owl-theme">
-                                   <div class="item">
-                                        <div class="testimonial-item3">
-                                             <img src="images/RomanCoronagraph_logo_white_250x.png" class="img-responsive" alt="Roman Coronagraph Logo">
-                                             <h4>Roman Coronagraph Community Participation Program (CPP)</h4>
+                                   <div class="section-title">
+                                        <h1>Projects & Collaborations</h1>
+                                   </div>
+
+                                   <div class="owl-carousel owl-theme">
+                                        <div class="item">
+                                             <div class="testimonial-item3">
+                                                  <img src="images/logos/RomanCoronagraph_logo_white_250x.png" class="img-responsive" alt="Roman Coronagraph Logo">
+                                                  <h4>Roman Coronagraph Community Participation Program (CPP)</h4>
                                              <!-- <br>
                                              <h4>Community</h4> 
                                               <br>
@@ -462,246 +478,352 @@
                                    </div>
 
                                    <div class="item">
-                                         <div class="testimonial-item3">
-                                             <img src="images/tst-image2.jpg" class="img-responsive" alt="Sofia">
-                                             <h4>Sofia</h4>
-                                        </div>
-                                        <h3>Donec pretium tristique elit eget sodales. Pellentesque posuere, nunc id interdum venenatis, leo odio cursus sapien, ac malesuada nisl libero eget urna.</h3>
+                                       <div class="testimonial-item3">
+                                        <img src="images/examples/tst-image2.jpg" class="img-responsive" alt="Sofia">
+                                        <h4>Sofia</h4>
                                    </div>
-
-                                   <div class="item">
-                                        <div class="testimonial-item3">
-                                             <img src="images/tst-image3.jpg" class="img-responsive2" alt="Monica">
-                                             <h4>Monica</h4>
-                                        </div>
-                                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</h3>
-                                   </div>
+                                   <h3>Donec pretium tristique elit eget sodales. Pellentesque posuere, nunc id interdum venenatis, leo odio cursus sapien, ac malesuada nisl libero eget urna.</h3>
                               </div>
 
+                              <div class="item">
+                                   <div class="testimonial-item3">
+                                        <img src="images/examples/tst-image3.jpg" class="img-responsive2" alt="Monica">
+                                        <h4>Monica</h4>
+                                   </div>
+                                   <h3>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</h3>
+                              </div>
                          </div>
+
                     </div>
-                    
                </div>
+
           </div>
-     </section>
+     </div>
+</section>
 
-     <!-- PUBLICATIONS -->
-      <section id="papers" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
+<!-- PUBLICATIONS -->
+<section id="papers" data-stellar-background-ratio="0.5">
+     <div class="container">
+          <div class="row">
 
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title">
-                              <center>
+               <div class="col-md-12 col-sm-12">
+                    <div class="section-title">
+                         <center>
                               <h1>Publications</h1>
                          </center>
-                         </div>
                     </div>
+               </div>
 
-                    <div class="col-md-4 col-sm-6">
-                         <div class="pricing-thumb">
-                             <div class="pricing-title">
-                                  <h2>Full record</h2>
-                             </div>
-                             <div class="pricing-info">
-                             <div class="pricing-bottom">
-                                   <span class="pricing-dollar">> 400 entries</span>
-                                        <a href="https://ui.adsabs.harvard.edu/search/p_=0&q=docs(library%2FPGeId1QDQ4Op2gaNWXeBnQ)&sort=date%20desc%2C%20bibcode%20desc" target=”_blank” class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
-                                   <h4>> 185 Refeered Papers</h4>
-                                   <h4>> 50 SPIE/Technical Papers</h4>
-                                   <h4>> 62 h-index</h4>
-                                   <h4>> 12k citations</h4>
-                                   <br>
-                                   <center>
+               <div class="col-md-4 col-sm-6">
+                    <div class="pricing-thumb">
+                     <div class="pricing-title">
+                          <h2>Full record</h2>
+                     </div>
+                     <div class="pricing-info">
+                          <div class="pricing-bottom">
+                              <span class="pricing-dollar">> 400 entries</span>
+                              <a href="https://ui.adsabs.harvard.edu/search/p_=0&q=docs(library%2FPGeId1QDQ4Op2gaNWXeBnQ)&sort=date%20desc%2C%20bibcode%20desc" target=”_blank” class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
+                              <h4>> 185 Refeered Papers</h4>
+                              <h4>> 50 SPIE/Technical Papers</h4>
+                              <h4>> 62 h-index</h4>
+                              <h4>> 12k citations</h4>
+                              <br>
+                              <center>
                                    <a href="https://scholar.google.com/citations?user=GFNGEzYAAAAJ&hl=en" target=”_blank” class="section-btn">Google Scholar <i class="ai ai-google-scholar"></i></a>
                                    <a href="https://scholar.google.com/citations?user=GFNGEzYAAAAJ&hl=en" target=”_blank” class="section-btn">ORCID <i class="ai ai-orcid"></i></a>
-                                   </center>
-                             </div>
-                        </div>
-                             <div class="pricing-bottom">
-                                   <span class="pricing-dollar">Download </span>
-                                   <a href="https://www.juliengirard.space/uploads/1/0/1/7/101743990/juliengirard_publications_january2024.pdf" class="section-btn pricing-btn">PDF</a>      
-                             </div>            
+                              </center>
                          </div>
                     </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="pricing-thumb">
-                             <div class="pricing-title">
-                                  <h2>Lead author <small>refereed</small></h2>
-                             </div>
-                             <div class="pricing-info">
-                             <div class="pricing-bottom">
-                                   <span class="pricing-dollar">29 publications</span>
-                                   <a href="https://ui.adsabs.harvard.edu/search/q=docs(library%2FWo4kYq3nRHyR3Wi0Hxho7g)&sort=date%20desc%2C%20bibcode%20desc&p_=0" target=”_blank” class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
-                                   <h4>> 1,200 citations</h4>
-                                   <p>These are refereed papers for which I consider myself a lead author (typically among the first 5 authors). I always prefer to help and provide expertise to impcatful and student-led projects than publish as first author.</p>
-                             </div>
-                             </div>
-                             <div class="pricing-info">
-                              <div class="pricing-title">
-                                  <h2>First author <small>all</small></h2>
-                             </div>
-                             <div class="pricing-bottom">
-                                   <span class="pricing-dollar"><h4>23 entries</h4></span>
-                                   <a href="https://ui.adsabs.harvard.edu/search/q=docs(library%2FZMzOzpZ-QpiY7hgcT2gGsw)&sort=citation_count%20desc%2C%20bibcode%20desc&p_=0" target=”_blank” class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
-                                   <h4>80+ citations</h4>
-                             </div>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="pricing-thumb">
-                             <div class="pricing-title">
-                                  <h2>Most Impactful <small>refereed</small></h2>
-                             </div>
-                               <div class="pricing-info">
-                             <div class="pricing-bottom">
-                                   <span class="pricing-dollar"> >100 citations: 34 papers</span>
-                                   <a href="https://ui.adsabs.harvard.edu/search/fl=identifier%2C%5Bcitations%5D%2Cabstract%2Cauthor%2Cbook_author%2Corcid_pub%2Corcid_user%2Corcid_other%2Cbibcode%2Ccitation_count%2Ccomment%2Cdoi%2Cid%2Ckeyword%2Cpage%2Cproperty%2Cpub%2Cpub_raw%2Cpubdate%2Cpubnote%2Cread_count%2Ctitle%2Cvolume%2Clinks_data%2Cesources%2Cdata%2Ccitation_count_norm%2Cemail%2Cdoctype&p_=0&q=orcid%3A0000-0001-8627-0404%2C%20citation_count%3A%5B100%20TO%201000%5D&rows=25&sort=citation_count%20desc%2C%20bibcode%20desc&start=0" target="_blank" class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
-                             </div>
-                              <div class="pricing-bottom">
-                                   <span class="pricing-dollar"> >50 citations: 71 papers</span>
-                                   <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=orcid%3A0000-0001-8627-0404%2C%20citation_count%3A%5B50%20TO%201000%5D&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
-                             </div>
-                         </div>
-                    </div>
-               </div>
-                    
+                    <div class="pricing-bottom">
+                         <span class="pricing-dollar">Download </span>
+                         <a href="https://www.juliengirard.space/uploads/1/0/1/7/101743990/juliengirard_publications_january2024.pdf" class="section-btn pricing-btn">PDF</a>      
+                    </div>            
                </div>
           </div>
-     </section> 
 
-
-     <!-- PHOTOGRAPHY -->
-      <section id="photo" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-12 col-sm-12">
-                         <div class="section-title">
-                              <center>
-                              <h1>Nightscape Photography</h1>
-                         </center>
-                         </div>
-
-<div class="row">
-  <div class="column">
-    <img src="images/photography/laser-30min-1920.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="images/photography/moonlit-laser22-1-1920.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="images/photography/paranal-heart-1920.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="images/photography/mars-2099-1920_orig.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
+          <div class="col-md-4 col-sm-6">
+               <div class="pricing-thumb">
+                <div class="pricing-title">
+                     <h2>Lead author <small>refereed</small></h2>
+                </div>
+                <div class="pricing-info">
+                     <div class="pricing-bottom">
+                         <span class="pricing-dollar">29 publications</span>
+                         <a href="https://ui.adsabs.harvard.edu/search/q=docs(library%2FWo4kYq3nRHyR3Wi0Hxho7g)&sort=date%20desc%2C%20bibcode%20desc&p_=0" target=”_blank” class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
+                         <h4>> 1,200 citations</h4>
+                         <p>These are refereed papers for which I consider myself a lead author (typically among the first 5 authors). I always prefer to help and provide expertise to impcatful and student-led projects than publish as first author.</p>
+                    </div>
+               </div>
+               <div class="pricing-info">
+                    <div class="pricing-title">
+                     <h2>First author <small>all</small></h2>
+                </div>
+                <div class="pricing-bottom">
+                    <span class="pricing-dollar"><h4>23 entries</h4></span>
+                    <a href="https://ui.adsabs.harvard.edu/search/q=docs(library%2FZMzOzpZ-QpiY7hgcT2gGsw)&sort=citation_count%20desc%2C%20bibcode%20desc&p_=0" target=”_blank” class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
+                    <h4>80+ citations</h4>
+               </div>
+          </div>
+     </div>
 </div>
 
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-       <span class="close-x" onclick="closeModal()">&times;</span>
-
-     <div class="mySlides">
-          <div class="slide-container">
-          <div class="numbertext">1 / 4</div>
-          <img src="images/photography/laser-30min-1920_orig.jpg" style="width:100%">
-               <div class="overlay-text">
-      More information about this image, "Picture of the Week" on <a href="https://www.eso.org/public/images/potw1234a/" target="_blank">eso.org</a>
-               </div>
+<div class="col-md-4 col-sm-6">
+     <div class="pricing-thumb">
+      <div class="pricing-title">
+           <h2>Most Impactful <small>refereed</small></h2>
+      </div>
+      <div class="pricing-info">
+           <div class="pricing-bottom">
+               <span class="pricing-dollar"> >100 citations: 34 papers</span>
+               <a href="https://ui.adsabs.harvard.edu/search/fl=identifier%2C%5Bcitations%5D%2Cabstract%2Cauthor%2Cbook_author%2Corcid_pub%2Corcid_user%2Corcid_other%2Cbibcode%2Ccitation_count%2Ccomment%2Cdoi%2Cid%2Ckeyword%2Cpage%2Cproperty%2Cpub%2Cpub_raw%2Cpubdate%2Cpubnote%2Cread_count%2Ctitle%2Cvolume%2Clinks_data%2Cesources%2Cdata%2Ccitation_count_norm%2Cemail%2Cdoctype&p_=0&q=orcid%3A0000-0001-8627-0404%2C%20citation_count%3A%5B100%20TO%201000%5D&rows=25&sort=citation_count%20desc%2C%20bibcode%20desc&start=0" target="_blank" class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
+          </div>
+          <div class="pricing-bottom">
+               <span class="pricing-dollar"> >50 citations: 71 papers</span>
+               <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=orcid%3A0000-0001-8627-0404%2C%20citation_count%3A%5B50%20TO%201000%5D&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
           </div>
      </div>
+</div>
+</div>
 
-    <div class="mySlides">
-     <div class="slide-container">
-      <div class="numbertext">2 / 4</div>
-      <img src="images/photography/moonlit-laser22-1-1920_orig.jpg" style="width:100%">
-      <div class="overlay-text">
-      More information about this image, "First Light Announcement" on <a href="https://www.eso.org/public/images/ann15034d/" target="_blank">eso.org</a>
-               </div>
+</div>
+</div>
+</section> 
+
+
+<!-- IMAGES / PHOTOGRAPHY -->
+<section id="images" data-stellar-background-ratio="0.5">
+     <div class="container">
+          <div class="row">
+               <div class="col-md-12 col-sm-12">
+                    <div class="section-title">
+                         <center>
+                              <h1>Images</h1>
+                              <br>
+                              <h2>Nightscape Photography</h2>
+                         </center>
+                    </div>
+
+                    <div class="row">
+                         <div class="column">
+                              <img src="images/photography/laser-30min-1920.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                         </div>
+                         <div class="column">
+                              <img src="images/photography/moonlit-laser22-1-1920.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">  
+                         </div>
+                              <div class="column">
+                                   <img src="images/photography/paranal-heart-1920.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                              </div>
+                              <div class="column">
+                                   <img src="images/photography/mars-2099-1920_orig.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                              </div>
+
+                              <div id="myModal" class="modal">
+                                <span class="close cursor" onclick="closeModal()">&times;</span>
+                                <div class="modal-content">
+                                     <span class="close-x" onclick="closeModal()">&times;</span>
+
+                                     <div class="mySlides">
+                                        <div class="slide-container">
+                                             <div class="numbertext">1 / 4</div>
+                                             <img src="images/photography/laser-30min-1920_orig.jpg" style="width:100%">
+                                             <div class="overlay-text">
+                                              More information about this image, "Picture of the Week" on <a href="https://www.eso.org/public/images/potw1234a/" target="_blank">eso.org</a>
+                                         </div>
+                                    </div>
+                               </div>
+
+                               <div class="mySlides">
+                                   <div class="slide-container">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="images/photography/moonlit-laser22-1-1920_orig.jpg" style="width:100%">
+                                    <div class="overlay-text">
+                                         More information about this image, "First Light Announcement" on <a href="https://www.eso.org/public/images/ann15034d/" target="_blank">eso.org</a>
+                                    </div>
+                               </div>
+                          </div>
+
+                          <div class="mySlides">
+                              <div class="slide-container">
+                                   <div class="numbertext">3 / 4</div>
+                                   <img src="images/photography/paranal-heart-1920_orig.jpg" style="width:100%">
+                                   <div class="overlay-text">
+                                       More information about this image, "Picture of the Week" on <a href=https://www.eso.org/public/images/potw1207a/" target="_blank">eso.org</a>
+                                  </div>
+                             </div>
+                        </div>
+
+                        <div class="mySlides">
+                         <div class="slide-container">
+                              <div class="numbertext">4 / 4</div>
+                              <img src="images/photography/mars-2099-1920_orig.jpg" style="width:100%">
+                              <div class="overlay-text">
+                                  More information about this image, "Picture of the Week" on <a href="https://www.eso.org/public/images/potw1226a/" target="_blank">eso.org</a>
+                             </div>
+                        </div>
+                   </div>
+
+                   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                   <div class="caption-container">
+                        <p id="caption"></p>
+                   </div>
+
+
+                   <div class="column">
+                        <img class="demo cursor" src="images/photography/laser-30min-1920.jpg" style="width:100%" onclick="currentSlide(1)" alt="Laser Guide Star sweeps across a starry sky">
+                   </div>
+                   <div class="column">
+                        <img class="demo cursor" src="images/photography/moonlit-laser22-1-1920.jpg" style="width:100%" onclick="currentSlide(2)" alt="First light of new laser on Adaptive Optics Facility at Paranal">
+                   </div>
+                   <div class="column">
+                        <img class="demo cursor" src="images/photography/paranal-heart-1920.jpg" style="width:100%" onclick="currentSlide(3)" alt="The heart of the Milky Way, for Valentine’s Day">
+                   </div>
+                   <div class="column">
+                        <img class="demo cursor" src="images/photography/mars-2099-1920.jpg" style="width:100%" onclick="currentSlide(4)" alt="Mars, 2099?">
+                   </div>
+              </div>
+         </div>
+
+
+         <div class="subsection-title">
+          <br>
+          <center>
+               <br>
+               <p>While spending nearly a thousand nights in the Atacama desert in northern Chile I picked up nightscape photography and even became the 13th <a href="https://www.eso.org/public/outreach/partnerships/photo-ambassadors/#girard" target="_blank">ESO Photo Ambassador</a>.</p>
+          </center>
+          <hr>
+     </div>
+
+<!-- </section>
+<section id="obsphoto" data-stellar-background-ratio="0.5"> -->
+ <div id="obsphoto" class="container">
+     <div class="row">
+          <div class="col-md-12 col-sm-12">
+               <div class="subsection-space"> </div>
+               <div class="section-title">
+                 <center>
+                    <h2>Working, mentoring, observing</h2>
+               </center>
           </div>
+          <div class="row">
+               <div class="column">
+                    <img src="images/work/MOC_LiaJulien.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+               </div>
+               <div class="column">
+                    <img src="images/photography/moonlit-laser22-1-1920.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor"> 
+               </div>
+               <div class="column">
+                    <img src="images/photography/paranal-heart-1920.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+               </div>
+               <div class="column">
+                    <img src="images/photography/mars-2099-1920_orig.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+               </div>
+
+               <div id="myModal2" class="modal">
+                 <span class="close cursor" onclick="closeModal()">&times;</span>
+                 <div class="modal-content">
+                      <span class="close-x" onclick="closeModal()">&times;</span>
+
+                      <div class="mySlides">
+                         <div class="slide-container">
+                              <div class="numbertext">1 / 4</div>
+                              <img src="images/work/MOC_LiaJulien.jpg" style="width:100%">
+                              <div class="overlay-text">
+                               More information about this image, "Picture of the Week" on <a href="https://www.eso.org/public/images/potw1234a/" target="_blank">eso.org</a>
+                          </div>
+                     </div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="slide-container">
+                     <div class="numbertext">2 / 4</div>
+                     <img src="images/photography/moonlit-laser22-1-1920_orig.jpg" style="width:100%">
+                     <div class="overlay-text">
+                          More information about this image, "First Light Announcement" on <a href="https://www.eso.org/public/images/ann15034d/" target="_blank">eso.org</a>
+                     </div>
+                </div>
+           </div>
+
+           <div class="mySlides">
+               <div class="slide-container">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="images/photography/paranal-heart-1920_orig.jpg" style="width:100%">
+                    <div class="overlay-text">
+                        More information about this image, "Picture of the Week" on <a href=https://www.eso.org/public/images/potw1207a/" target="_blank">eso.org</a>
+                   </div>
+              </div>
+         </div>
+
+         <div class="mySlides">
+          <div class="slide-container">
+               <div class="numbertext">4 / 4</div>
+               <img src="images/photography/mars-2099-1920_orig.jpg" style="width:100%">
+               <div class="overlay-text">
+                   More information about this image, "Picture of the Week" on <a href="https://www.eso.org/public/images/potw1226a/" target="_blank">eso.org</a>
+              </div>
+         </div>
     </div>
 
-     <div class="mySlides">
-          <div class="slide-container">
-          <div class="numbertext">3 / 4</div>
-          <img src="images/photography/paranal-heart-1920_orig.jpg" style="width:100%">
-               <div class="overlay-text">
-      More information about this image, "Picture of the Week" on <a href=https://www.eso.org/public/images/potw1207a/" target="_blank">eso.org</a>
-               </div>
-          </div>
-     </div>
 
-          <div class="mySlides">
-          <div class="slide-container">
-          <div class="numbertext">4 / 4</div>
-          <img src="images/photography/mars-2099-1920_orig.jpg" style="width:100%">
-               <div class="overlay-text">
-      More information about this image, "Picture of the Week" on <a href="https://www.eso.org/public/images/potw1226a/" target="_blank">eso.org</a>
-               </div>
-          </div>
-     </div>
-    
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     <div class="caption-container">
-      <p id="caption"></p>
+         <p id="caption"></p>
     </div>
 
 
     <div class="column">
-      <img class="demo cursor" src="images/photography/laser-30min-1920.jpg" style="width:100%" onclick="currentSlide(1)" alt="Laser Guide Star sweeps across a starry sky">
+         <img class="demo cursor" src="images/work/MOC_LiaJulien.jpg" style="width:100%" onclick="currentSlide(1)" alt="Laser Guide Star sweeps across a starry sky">
     </div>
     <div class="column">
-      <img class="demo cursor" src="images/photography/moonlit-laser22-1-1920.jpg" style="width:100%" onclick="currentSlide(2)" alt="First light of new laser on Adaptive Optics Facility at Paranal">
+         <img class="demo cursor" src="images/photography/moonlit-laser22-1-1920.jpg" style="width:100%" onclick="currentSlide(2)" alt="First light of new laser on Adaptive Optics Facility at Paranal">
     </div>
     <div class="column">
-      <img class="demo cursor" src="images/photography/paranal-heart-1920.jpg" style="width:100%" onclick="currentSlide(3)" alt="The heart of the Milky Way, for Valentine’s Day">
+         <img class="demo cursor" src="images/photography/paranal-heart-1920.jpg" style="width:100%" onclick="currentSlide(3)" alt="The heart of the Milky Way, for Valentine’s Day">
     </div>
     <div class="column">
-      <img class="demo cursor" src="images/photography/mars-2099-1920.jpg" style="width:100%" onclick="currentSlide(4)" alt="Mars, 2099?">
+         <img class="demo cursor" src="images/photography/mars-2099-1920.jpg" style="width:100%" onclick="currentSlide(4)" alt="Mars, 2099?">
     </div>
-  </div>
 </div>
 
-                    </div>
 
 
-          </div>
+<div>
+     <br>
+     <p>While spending nearly a thousand nights in the Atacama desert in northern Chile I picked up nightscape photography and even became the 13th ESO Photo Ambassador.</p>
+</div> 
+</div>    
 
-</div>
+
 </section>
 
-     <!-- CONTACT -->
-     <section id="contact" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
+<!-- CONTACT -->
+<section id="contact" data-stellar-background-ratio="0.5">
+     <div class="container">
+          <div class="row">
 
-                    <div class="col-md-offset-1 col-md-10 col-sm-12">
-                         <form id="contact-form" role="form" action="" method="post">
-                              <div class="section-title">
-                                   <h1>Please reach out</h1>      
-<h3>Space Telescope Science Institute (<a href="https://wwwstsci.edu/" target="_blank">STScI</a>)
-                                  <br>    
-                              3700 San Martin Drive 
-                              <br>
-                              Baltimore, MD 21218  
-                              <br>
-                              USA</h3> <p> Office 406B</p>
-<div class="team-info team-thumb-down">
-                                   <a href="mailto:jgirard@stsci.edu" target=”_blank” class="section-btn pricing-btn2"> jgirard@stsci.edu </a>
-                              </div>
-<iframe src="https://snazzymaps.com/embed/713995" width="100%" height="500px" style="border:solid 1px;"></iframe>
-  <br> <br>
-<h3>If not in Baltimore, where might I be?</h3> 
- <br>
-<iframe src="https://calendar.google.com/calendar/embed?height=500&wkst=2&ctz=America%2FNew_York&showPrint=0&src=Zm1vYW42bGFxYWlwcjVrMHRzanZ0czAwdW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=NGNhaGJhcGg3bmZqY2NhNHE4aW9xbjBzc29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dWZpdWhzdWkxZHRoOWwzODU0OGUwOHRpczhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YnV1Z3JtdWdwbjhxanJsa2dtNnM3ampoaG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23616161&color=%233f51b5&color=%23e4c441&color=%23ef6c00" style="border:solid 1px #777" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
-</div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <form id="contact-form" role="form" action="" method="post">
+                         <div class="section-title">
+                              <h1>Please reach out</h1>      
+                              <h3>Space Telescope Science Institute (<a href="https://wwwstsci.edu/" target="_blank">STScI</a>)
+                               <br>    
+                               3700 San Martin Drive 
+                               <br>
+                               Baltimore, MD 21218  
+                               <br>
+                          USA</h3> <p> Office 406B</p>
+                          <div class="team-info team-thumb-down">
+                              <a href="mailto:jgirard@stsci.edu" target=”_blank” class="section-btn pricing-btn2"> jgirard@stsci.edu </a>
+                         </div>
+                         <iframe src="https://snazzymaps.com/embed/713995" width="100%" height="500px" style="border:solid 1px;"></iframe>
+                         <br> <br>
+                         <h3>If not in Baltimore, where might I be?</h3> 
+                         <br>
+                         <iframe src="https://calendar.google.com/calendar/embed?height=500&wkst=2&ctz=America%2FNew_York&showPrint=0&src=Zm1vYW42bGFxYWlwcjVrMHRzanZ0czAwdW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=NGNhaGJhcGg3bmZqY2NhNHE4aW9xbjBzc29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dWZpdWhzdWkxZHRoOWwzODU0OGUwOHRpczhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YnV1Z3JtdWdwbjhxanJsa2dtNnM3ampoaG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23616161&color=%233f51b5&color=%23e4c441&color=%23ef6c00" style="border:solid 1px #777" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
+                    </div>
  <!--                             <div class="col-md-4 col-sm-4">
                                    <input type="text" class="form-control" placeholder="Full name" name="name" required="">
                               </div>
@@ -731,10 +853,10 @@
                          <div class="col-md-6 col-sm-6">
                               <p>Copyright &copy; Julien Girard 2025 - initial template by
                                    <a rel="nofollow" href="http://tooplate.com">Tooplate</a></p>
-                         </div>
+                              </div>
 
-                         <div class="col-md-6 col-sm-6">
-                             <ul class="social-icon">
+                              <div class="col-md-6 col-sm-6">
+                               <ul class="social-icon">
                                    <li><a href="https://ui.adsabs.harvard.edu/search/q=docs(library%2FPGeId1QDQ4Op2gaNWXeBnQ)&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" class="ai ai-ads"></a></li>
                                    <li><a href="https://orcid.org/0000-0001-8627-0404" target="_blank" class="ai ai-orcid"></a></li>
                                    <li><a href="https://scholar.google.com/citations?user=GFNGEzYAAAAJ&hl=en" target="_blank" class="ai ai-google-scholar"></a></li>
@@ -761,7 +883,9 @@
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
      <script src="js/video1.js"></script>
-     <script src="js/carousel1.js"></script>
+     <script src="js/slideshow.js"></script>
+     <!-- <script src="js/background.js"></script> -->
+     <script src="js/submenu.js"></script>
 
 </body>
 </html>
