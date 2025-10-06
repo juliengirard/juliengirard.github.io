@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*body {
+  font-family: Raleway;
+  background-color: #202125;
+} 
+
+.heading {
+    text-align: center;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    padding: 40px;
+    color: white;
+} */
+
+.gallery-image {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 150px;
+  width: 250px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 150px;
+  width: 250px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  position: absolute;
+  font-size: 1.0em;
+  bottom: 5px;
+  left: 10px;
+  right: 10px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: 150px;
+  width: 250px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.6);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-1px);
+  opacity: 1.0;
+}
+
+
+.img-box:hover .caption h3 {
+  color: white;
+  font-size: 1.5em;
+}
+
+.img-box:hover .caption h4 {
+  color: white;
+  font-size: 1.0em;
+}
+
+.img-box:hover .caption p {
+  color: white;
+  font-size: 0.8em;
+  line-height: 1.0;
+}
+
+/* Optional: make second line slightly dimmer for contrast */
+.img-box:hover .caption p.opacity-low {
+  color: #cccccc;
+  opacity: 1;
+  ont-size: 1.0em;
+}
+
+/* Make caption text always white (not just on hover) if preferred */
+.caption p {
+  color: white;
+}
+
+.img-box:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 1.0em;
+}
+
+.opacity-low {
+  opacity: 1.0;
+}

@@ -27,6 +27,7 @@
  <link rel="stylesheet" href="css/owl.theme.default.min.css">
  <link rel="stylesheet" href="css/font-awesome.min.css">
  <link rel="stylesheet" href="css/my_carousel1.css">
+ <link rel="stylesheet" href="css/projects.css">
 
  <!-- MAIN CSS -->
  <!-- <link rel="stylesheet" href="css/my_tooplate-style.css"> -->
@@ -69,16 +70,20 @@
                    <ul class="nav navbar-nav">
                     <li><a href="#home" class="smoothScroll">Home</a></li>
                     <li><a href="#about" class="smoothScroll">About</a></li>
-                    <li><a href="#research" class="smoothScroll">Research</a></li>
-                    <li><a href="#projects" class="smoothScroll">Projects</a></li>
+                    <li class="dropdown">
+                    <a href="#research" class="smoothScroll">Research<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
                     <li><a href="#papers" class="smoothScroll">Publications</a></li>
+                    </ul></li>
+                    <li><a href="#projects" class="smoothScroll">Projects</a></li>
+                    <li><a href="#mentoring" class="smoothScroll">Giving back</a></li>
                     <!-- <li><a href="#photo" class="smoothScroll">Photography</a></li> -->
                     <li class="dropdown">
                       <a href="#images">Images <span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li><a href="#images">Nightscape Photography</a></li>
                         <li><a href="#obsphoto">Observatories & Work</a></li>
-                        <li><a href="#obsastro">Favorite Astronomical Images</a></li>
+                        <!-- <li><a href="#obsastro">Favorite Astronomical Images</a></li> -->
                    </ul>
               </li>
 
@@ -171,7 +176,7 @@
 
                          <li><a href="#tab04" aria-controls="tab04" role="tab" data-toggle="tab">Service</a></li>
 
-                         <li><a href="#tab05" aria-controls="tab04" role="tab" data-toggle="tab">Mentoring</a></li>
+                         <li><a href="#tab05" aria-controls="tab04" role="tab" data-toggle="tab">Mentor</a></li>
 
                          <li><a href="#tab06" aria-controls="tab04" role="tab" data-toggle="tab">Teaching</a></li>
 
@@ -186,17 +191,17 @@
                                    </a></h3>
                                    <h4><b>PhD in Physics & Astrophysics (2005) </b><small><i>Doctorat</i></small></h4>
                                    <small style="margin-left: 25px;">On sky validation of the polychromatic laser guide star concept for adaptive optics</small>
-                                   <p style="margin-left: 25px;">Advisor: Renaud Foy &dagger;</p>
-                              </div>
+                                   <p style="margin-left: 25px;">Advisor: Renaud Foy &dagger;</p>  
+                              </div> 
                               <div class="tab-pane-item">
                                    <h3><a href="https://www.univ-grenoble-alpes.fr/english/" target="_blank">Université Grenoble Alpes, France &nbsp;
                                    <img src="images/logos/uga.png" class="owl-item" alt="UGA logo" height="70">      
                                    </a></h3>
-                                   <h4><b>Master's in Astrophysics (2001) </b><small><i>DEA Astrophysique et Milieux Dilués</i></small></h4>
+                                   <h4><b>Master's in Astrophysics (2001) </b><small><i>DEA Astrophysique et Milieux Dilués</i></small></h4>   <br>
                                    <h3><a href="https://www.utah.edu/" target="_blank">University of Utah, USA &nbsp;
                                    <img src="images/logos/universityofutah.png" class="owl-item" alt="U of Utah logo" height="60"> 
                                    </a></h3>
-                                   <h4><b>Master of Science in Instrumentation Physics (2000) </b> </h4>
+                                   <h4><b>Master of Science in Instrumentation Physics (2000) </b> </h4> <br>
                                    <h3><a href="https://www.univ-smb.fr/en/" target="_blank">Université Savoie Mont Blanc, France &nbsp;
                                    <img src="images/logos/UniversiteSavoieMB.png" class="owl-item" alt="USMB logo" height="45"> 
                                    </a></h3>
@@ -409,7 +414,7 @@
                                    <a href="https://www.caltech.edu/about/news/bands-clouds-swirl-across-brown-dwarfs-surface" target=”_blank”><img src="https://caltech-prod.s3.amazonaws.com/main/images/BD_Art.max-1400x800.jpg" class="img-responsive" alt="Luhman 16 AB"></a>
                                    <div class="team-info">
                                         <p>We detect a tiny signal of circular polarization on the A component which we interpret as the presense of cloud bands (like Jupiter's). </p>
-                                        <a href="https://ui.adsabs.harvard.edu/abs/2019NatAs...3..749H/abstract" target=”_blank” class="section-btn pricing-btn2">Millar-Blanchaer, Girard+ 2020, ApJ</a>
+                                        <a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...894...42M/abstract" target=”_blank” class="section-btn pricing-btn2">Millar-Blanchaer, Girard+ 2020, ApJ</a>
                                         <br>
                                         <br>
                                         <p>Check the Caltech Press Release and Video.</p>
@@ -431,7 +436,8 @@
                                         <h2>Giant Exoplanets with JWST/NIRCam</h2>
                                         <small><a href="https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HR8799&submit=SIMBAD+search" target=”_blank”>HR 8799 b c d e</a></small>
                                         <p>JWST is our largest space telescope but its primary mirror only 6.5m across. Moreover when using NIRCam's coronagraphs this the Lyot stop limits that to ~5.2m. Our angular resolution is thus affected but we compensate this loss thanks to the telescope's extreme stability and sensitivity in space. Then we apply all our PSF subtraction and post-processing technique to remove the stellar glare and detect planets 10,000 to 100,000 fainter than the host star.</p>
-                                        <a href="https://ui.adsabs.harvard.edu/abs/2019NatAs...3..749H/abstract" target=”_blank” class="section-btn pricing-btn2">Balmer+ 2025, AJ</a>
+                                        <p><a href="https://ui.adsabs.harvard.edu/abs/2025AJ....169..209B/abstract" target=”_blank” class="section-btn pricing-btn2">Balmer+ 2025, AJ</a></p>
+                                        <p><a href="https://ui.adsabs.harvard.edu/abs/2022SPIE12180E..3QG/abstract" target=”_blank” class="section-btn pricing-btn2">Girard+ 2022, SPIE</a></p>
                                         <br><br>
                                         <p>In this work we were able to detect a strong drop in the spectral energy distribution of planet e between 4.1 and 4.3 µm, the evidence of the presence of Carbone Dioxide in its atmosphere. Click on the image below to access the NASA Press Release.</p>
                                         <a  href="https://science.nasa.gov/missions/webb/nasas-webb-images-young-giant-exoplanets-detects-carbon-dioxide/" target="_blank"><img src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/science/2025/webb-STScI-01JNH9FFX8QJ0GERTMZTDDZHZG-2K.jpg?w=1920&h=1080&fit=crop&crop=faces%2Cfocalpoint" class="img-responsive" alt="HR 8799 b c d e" height="600"></a>
@@ -443,59 +449,6 @@
                </div>
           </section>
 
-          <!-- TESTIMONIAL -->
-          <section id="projects" data-stellar-background-ratio="0.5">
-               <div class="container">
-                    <div class="row">
-
-                         <div class="col-md-6 col-sm-12">
-                              <div class="testimonial-image"></div>
-                         </div>
-
-                         <div class="col-md-6 col-sm-12">
-                              <div class="testimonial-info">
-
-                                   <div class="section-title">
-                                        <h1>Projects & Collaborations</h1>
-                                   </div>
-
-                                   <div class="owl-carousel owl-theme">
-                                        <div class="item">
-                                             <div class="testimonial-item3">
-                                                  <img src="images/logos/RomanCoronagraph_logo_white_250x.png" class="img-responsive" alt="Roman Coronagraph Logo">
-                                                  <h4>Roman Coronagraph Community Participation Program (CPP)</h4>
-                                             <!-- <br>
-                                             <h4>Community</h4> 
-                                              <br>
-                                             <h4>Participation</h4>
-                                             <h4>Program (CPP) </h4> -->
-                                        </div>
-                                        <h3>As a funded Project Team member, I lead some calibration and commissioning program as well as help with observation planning, simulations and community engagement.</h3>
-                                   </div>
-
-                                   <div class="item">
-                                       <div class="testimonial-item3">
-                                        <img src="images/examples/tst-image2.jpg" class="img-responsive" alt="Sofia">
-                                        <h4>Sofia</h4>
-                                   </div>
-                                   <h3>Donec pretium tristique elit eget sodales. Pellentesque posuere, nunc id interdum venenatis, leo odio cursus sapien, ac malesuada nisl libero eget urna.</h3>
-                              </div>
-
-                              <div class="item">
-                                   <div class="testimonial-item3">
-                                        <img src="images/examples/tst-image3.jpg" class="img-responsive2" alt="Monica">
-                                        <h4>Monica</h4>
-                                   </div>
-                                   <h3>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et dolore magna.</h3>
-                              </div>
-                         </div>
-
-                    </div>
-               </div>
-
-          </div>
-     </div>
-</section>
 
 <!-- PUBLICATIONS -->
 <section id="papers" data-stellar-background-ratio="0.5">
@@ -519,10 +472,10 @@
                           <div class="pricing-bottom">
                               <span class="pricing-dollar">> 400 entries</span>
                               <a href="https://ui.adsabs.harvard.edu/search/p_=0&q=docs(library%2FPGeId1QDQ4Op2gaNWXeBnQ)&sort=date%20desc%2C%20bibcode%20desc" target=”_blank” class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
-                              <h4>> 185 Refeered Papers</h4>
+                              <h4>> 190 Refeered Papers</h4>
                               <h4>> 50 SPIE/Technical Papers</h4>
-                              <h4>> 62 h-index</h4>
-                              <h4>> 12k citations</h4>
+                              <h4>> 64 h-index</h4>
+                              <h4>> 13k citations</h4>
                               <br>
                               <center>
                                    <a href="https://scholar.google.com/citations?user=GFNGEzYAAAAJ&hl=en" target=”_blank” class="section-btn">Google Scholar <i class="ai ai-google-scholar"></i></a>
@@ -570,11 +523,11 @@
       </div>
       <div class="pricing-info">
            <div class="pricing-bottom">
-               <span class="pricing-dollar"> >100 citations: 34 papers</span>
+               <span class="pricing-dollar"> > 100 citations: 36 papers</span>
                <a href="https://ui.adsabs.harvard.edu/search/fl=identifier%2C%5Bcitations%5D%2Cabstract%2Cauthor%2Cbook_author%2Corcid_pub%2Corcid_user%2Corcid_other%2Cbibcode%2Ccitation_count%2Ccomment%2Cdoi%2Cid%2Ckeyword%2Cpage%2Cproperty%2Cpub%2Cpub_raw%2Cpubdate%2Cpubnote%2Cread_count%2Ctitle%2Cvolume%2Clinks_data%2Cesources%2Cdata%2Ccitation_count_norm%2Cemail%2Cdoctype&p_=0&q=orcid%3A0000-0001-8627-0404%2C%20citation_count%3A%5B100%20TO%201000%5D&rows=25&sort=citation_count%20desc%2C%20bibcode%20desc&start=0" target="_blank" class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
           </div>
           <div class="pricing-bottom">
-               <span class="pricing-dollar"> >50 citations: 71 papers</span>
+               <span class="pricing-dollar"> > 50 citations: 75 papers</span>
                <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=orcid%3A0000-0001-8627-0404%2C%20citation_count%3A%5B50%20TO%201000%5D&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" class="section-btn pricing-btn">ADS <i class="ai ai-ads"></i></a>
           </div>
      </div>
@@ -584,6 +537,246 @@
 </div>
 </div>
 </section> 
+
+
+
+<!-- PROJECTS -->
+<section id="projects" data-stellar-background-ratio="0.5">
+ 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <div class="section-title">
+        <center>
+          <h1>Projects, Collaborations, Initiatives</h1>
+          <br>
+          <h2>Current</h2>
+        </center>
+      </div>
+
+  <div class="gallery-image">
+
+<a href="https://www.romancoronagraph.space/" target="_blank">     
+    <div class="img-box">
+      <img src="images/work/romanCGI_640.png" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <h3>Roman Coronagraph</h3>
+          <h4 class="opacity-low">Community Participation Program (CPP)</h4>
+          <p class="opacity-low">Funded Project Team member, I contribute to calibration and commissioning programs, observation planning, simulations and community engagement.</p>
+        </div>
+      </div> 
+    </div>
+</a>    
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250/?image=232" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Night Sky</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250/?image=431" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Tea Talk</p>
+          <p class="opacity-low">Composite</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250?image=474" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Road</p>
+          <p class="opacity-low">Landscape</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250?image=344" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Sea</p>
+          <p class="opacity-low">Cityscape</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250?image=494" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Vintage</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div> 
+    </div>
+        <div class="img-box">
+      <img src="https://picsum.photos/350/250?image=494" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Vintage</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div> 
+    </div>
+  </div>
+
+        <center>
+          <h2>Past</h2>
+        </center>
+      </div>
+
+  <div class="gallery-image">
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250?image=444" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Library</p>
+          <p class="opacity-low">Architect Design</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250/?image=232" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Night Sky</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250/?image=431" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Tea Talk</p>
+          <p class="opacity-low">Composite</p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250?image=474" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Road</p>
+          <p class="opacity-low">Landscape</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250?image=344" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Sea</p>
+          <p class="opacity-low">Cityscape</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="https://picsum.photos/350/250?image=494" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Vintage</p>
+          <p class="opacity-low">Cinematic</p>
+        </div>
+      </div> 
+    </div>
+  </div>
+ 
+</div>
+
+</section>
+
+
+          <!-- TESTIMONIAL -->
+          <section id="mentoring" data-stellar-background-ratio="0.5">
+
+               <div class="container">
+                    <div class="row">
+                           <div class="col-md-12 col-sm-12">
+      <div class="section-title">
+        <center>
+          <h1>Giving back</h1>
+          </center>
+          <br>
+          <h3>As a researcher supported by public funds, I find extremely important to "give back" to society through outreach, communication but also by training and supporting the next generations of scientists, by creating a safe space for everyone to feel welcome in our work environment. Let's all improve together, give eachother positive and constructive feedback.</h3>
+      </div>
+</div>
+
+                         <div class="col-md-6 col-sm-12">
+                              <div class="testimonial-image"></div>
+                         </div>
+
+                         <div class="col-md-6 col-sm-12">
+                              <div class="testimonial-info">
+
+
+
+                                   <div class="owl-carousel owl-theme">
+                                        <div class="item">
+                                        <div class="section-title">
+                                        <h1>Mentoring</h1>
+                                        <!-- <h1> & Mental Health</h1> -->
+                                        </div>
+                                             <div class="testimonial-item3">
+                                                  <img src="https://media.licdn.com/dms/image/v2/D4E03AQGqsT5DFtJPpg/profile-displayphoto-scale_400_400/B4EZjIGLhQHIAg-/0/1755703720400?e=1762387200&v=beta&t=FtbwXhVbRniKfVrZts9o7EA97YOVh0QaPGHLYQoJ1M0" class="img-responsive" alt="Roman Coronagraph Logo">
+                                                  <h4>My door is open</h4>
+                                             <!-- <br>
+                                             <h4>Community</h4> 
+                                              <br>
+                                             <h4>Participation</h4>
+                                             <h4>Program (CPP) </h4> -->
+                                        </div>
+                                        <h3>Mentoring is one of my favorite things. I love to mentor and receive mentorship, formally and informally.</h3>
+                                        <h3>I am an institutional mentor to postdocs who ask me to, outside my fiedl of research and I am also a more "natural" mentor to early career scientists in the teams I am in.</h3>
+                                   </div>
+
+                                   <div class="item">
+                                        <div class="section-title">
+                                        <h1>Mental Health</h1>
+                                        </div>
+                                       <div class="testimonial-item3">
+                                        <img src="images/work/badass.jpg" class="img-responsive" alt="Sofia">
+                                        <h4>Mental health 101  on my door at STScI</h4>
+                                   </div>
+                                   <h3>In recent years it is clear that mental health issues can affect any of us, that being mindful, aware and non judegemental is really valuable in the work place. I pledge to listen and help colleagues who are in struggle. </h3>
+                              </div>
+
+                              <div class="item">
+                                        <div class="section-title">
+                                        <h1>Inspiring kids</h1>
+                                        </div>
+                                   <div class="testimonial-item3">
+                                        <img src="images/work/RPEMS_2019_small.jpg" class="img-responsive2" alt="OutreachTalk">
+                                        <h4>Communicating my passion at their level</h4>
+                                   </div>
+                                   <h3>Giving back through communicating and hopefully inspiring kids to pursue STEM fields or at least to like and trust Science.</h3>
+                                   <h3>This is after a series of talks I gave at one of Baltimore's public middle schools.</h3>
+                              </div>
+
+                              <div class="item">
+                                        <div class="section-title">
+                                        <h1>Reaching out</h1>
+                                        </div>
+                                   <div class="testimonial-item3">
+                                        <img src="images/work/IEMS_2022.png" class="img-responsive2" alt="OutreachTalk">
+                                        <h4>Presenting JWST to underserved communities</h4>
+                                   </div>
+                                   <h3>I've given a number of outreach talks in Mexico as I used to work there and get sollicitated. I enjoy speaking in Spanish about astronomy.</h3>
+                                   <h3>The response there is always extraordinary.</h3>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
 
 
 <!-- IMAGES / PHOTOGRAPHY -->
