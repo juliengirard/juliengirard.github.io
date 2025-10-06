@@ -702,7 +702,7 @@ body {
   }
 
   .tab-pane-item {
-    margin: 20px 0;
+    margin: 2px 0;
   }
 
   .tab-pane-item h2 {
@@ -940,6 +940,7 @@ body {
 
   .testimonial-item3 img {
     border: 1px solid #ffffff;
+    border-radius: 300px;
     width: 150px;
     height: 150px;
     margin-right: 0px;
