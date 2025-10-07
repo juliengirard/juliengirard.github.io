@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <!-- <link rel="stylesheet" href="css/font-awesome/academicons.css"> -->
 <link rel="stylesheet" href="academicons-1.9.4/css/academicons.min.css">
 <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/fontawesome.min.css">
@@ -37,6 +37,7 @@
  <link rel="icon" type="images/favicon_io/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
  <link rel="icon" type="images/favicon_io/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
  <link rel="manifest" href="images/favicon_io/site.webmanifest">
+
 </head>
 <body>
 
@@ -105,6 +106,7 @@
 
                                    <li><a href="https://www.instagram.com/juliengiraffe/" target="_blank" class="fa fa-instagram"></a></li>
                                    <li><a href="https://bsky.app/profile/juliengirard.space" target="_blank" class="fa-brands fa-bluesky" attr="bluesky icon"></a></li>
+                                   <!--<li><a href="https://juliengirard-github-io.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp" target="_blank" class="fa-solid fa-language" attr="translate icon"></a></li> -->
                                    <!---->
                               </ul>
                          </ul>
@@ -117,6 +119,8 @@
           <!-- FEATURE -->
           <section id="home" data-stellar-background-ratio="1.0">
            <!-- Video background -->
+
+
            <div class="video-wrapper">
             <video id="homeVideo" autoplay muted loop playsinline>
              <source src="images/videos/video2.mp4" type="video/mp4">
@@ -124,7 +128,11 @@
 
                   I am sorry but apparently your browser does not support HTML5 video.
              </video>
-             <div class="overlay"></div>
+
+
+    <!-- Google Translate Widget -->
+    <div id="google_translate_element"></div>
+
              <div class="container">
                   <div class="row">
                    <div class="col-md-offset-3 col-md-6 col-sm-12">
@@ -552,7 +560,7 @@
       <div class="section-title">
         <center>
           <h1>Projects, Collaborations, Initiatives</h1>
-             <h3>Hover over and click to open specific web pages.</h3>
+             <h3>Hover over and click to open the corresponding links.</h3>
           <h2>Current</h2>
              </center>
       </div>
@@ -584,14 +592,30 @@
       </div>
     </div>
     <div class="img-box">
-      <img src="https://picsum.photos/350/250/?image=431" alt="" />
+      <img src="images/work/chexo_new_small.png" alt="" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Tea Talk</p>
-          <p class="opacity-low">Composite</p>
+          <a href="https://www.chexo.org/" target="_blank">
+          <h3>ChEXO</h3>
+          <h4 class="opacity-low">CHesapeake bay area
+ EXOplanet Meetings</h4>
+</a>
         </div>
       </div>
     </div>
+   <div class="img-box">
+      <img src="images/work/ExoPAG-logo-on-image.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <a href="https://science.nasa.gov/astrophysics/programs/exep/exopag/" target="_blank">
+          <h3>ExoPAG</h3>
+          <h4 class="opacity-low">NASA Exoplanet Exploration Program Analysis Group</h4>
+          <p class="opacity-low">I am a member of the Executive Committee</p>
+</a>
+        </div>
+      </div>
+    </div>
+
     <div class="img-box">
       <img src="https://picsum.photos/350/250?image=474" alt="" />
       <div class="transparent-box">
@@ -708,7 +732,7 @@
           <h1>Giving back</h1>
           </center>
           <br>
-          <h3>As a researcher supported by public funds, I find extremely important to "give back" to society through outreach, communication but also by training and supporting the next generations of scientists, by creating a safe space for everyone to feel welcome in our work environment. Let's all improve together, give eachother positive and constructive feedback.</h3>
+          <h3>As a researcher supported by public funding coming from tax payers, I find extremely important to "give back" to society through outreach, communication but also by training and supporting the next generations of scientists, by creating a safe space for everyone to feel welcome in our work environment. Let's all improve together, give eachother positive and constructive feedback!</h3>
       </div>
 </div>
 
@@ -748,7 +772,8 @@
                                         <img src="images/work/badass.jpg" class="img-responsive" alt="Sofia">
                                         <h4>Mental health 101  on my door at STScI</h4>
                                    </div>
-                                   <h3>In recent years it is clear that mental health issues can affect any of us, that being mindful, aware and non judegemental is really valuable in the work place. I pledge to listen and help colleagues who are in struggle. </h3>
+                                   <h3>In recent years it became clear (and clearer to me) that mental health issues can affect any of us, that being mindful, aware and non judegemental is really valuable in the work place. I pledge to listen and help colleagues who are in struggle. </h3>
+                                   <h3>A career in astronomy, in research, at observatorries at the interface of academia is a "marathon", is non linear and is far from easy. If I can modestly help and motivate others, I am happy to do so.</h3>
                               </div>
 
                               <div class="item">
@@ -1098,6 +1123,17 @@
      <script src="js/slideshow1234.js"></script>
      <!-- <script src="js/background.js"></script> -->
      <script src="js/submenu.js"></script>
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'en',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    }, 'google_translate_element');
+  }
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 
 </body>
 </html>
