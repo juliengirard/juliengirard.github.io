@@ -61,23 +61,23 @@ body {
 /* GOOGLE TRANSLATE */
 
 
-/* Style the translate widget inside the overlay */
+/* Position and style the Translate element */
 #google_translate_element {
   position: absolute;
-  top: 45px;
-  right: 80px;
+  top: 20px;
+  right: 20px;
   z-index: 9999;
   background-color: white;
   padding: 5px 10px;
   border-radius: 5px;
-  font-size: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   opacity: 0.95;
 }
 
-/* Fix Google Translate styling */
+/* Clean up Google Translate styles */
 .goog-te-gadget {
   font-family: inherit;
-  font-size: 10px;
+  font-size: 14px;
   color: #000;
 }
 
@@ -90,12 +90,17 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* Optional cleanup (Google branding must remain visible per ToS) */
-/*
-.goog-logo-link, .goog-te-gadget span {
+.goog-te-banner-frame.skiptranslate {
   display: none !important;
 }
-.goog-te-gadget-icon {
+
+body {
+  top: 0px !important;
+}
+
+/* Optional: Hide Google logo (not recommended as it violates ToS) */
+/*
+.goog-logo-link, .goog-te-gadget span {
   display: none !important;
 }
 */
