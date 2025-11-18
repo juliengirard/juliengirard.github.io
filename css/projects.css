@@ -4,19 +4,6 @@
   padding: 0;
 }
 
-/*body {
-  font-family: Raleway;
-  background-color: #202125;
-} 
-
-.heading {
-    text-align: center;
-    font-size: 2.0em;
-    letter-spacing: 1px;
-    padding: 40px;
-    color: white;
-} */
-
 .gallery-image {
   padding: 20px;
   display: flex;
@@ -33,87 +20,98 @@
 
 .img-box {
   box-sizing: content-box;
-  margin: 10px;
+  margin: 2px;
   height: 150px;
   width: 250px;
   overflow: hidden;
   display: inline-block;
   color: white;
   position: relative;
-  background-color: white;
 }
 
+/* Caption container covers image */
 .caption {
   position: absolute;
-  font-size: 1.0em;
-  bottom: 5px;
   left: 10px;
   right: 10px;
-  opacity: 0.0;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  top: 0;
+  bottom: 0;
 }
 
+/* ✅ H3 always visible at top-left, moved up ~30px */
+.caption h3 {
+  position: absolute;
+  top: -12px; /* originally 8px → moved up ~30px */
+  left: 8px;
+  opacity: 1;
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+
+/* Hidden by default */
+.caption h4,
+.caption p {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* ✅ H4 center-left, moved up ~15px */
+.caption h4 {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: 8px;
+  transform: translateY(-50%);
+  font-size: 1.2em;
+  color: white;
+}
+
+/* ✅ P bottom-left, 3 lines height, moved up ~30px */
+.caption p {
+  position: absolute;
+  bottom: 3px; /* originally 8px → moved up ~30px */
+  left: 8px;
+  right: 8px;
+  font-size: 0.8em;
+  line-height: 1.0em;
+  height: 3em; /* 3 lines reserved */
+  overflow: hidden;
+  color: white;
+}
+
+/* Transparent overlay */
 .transparent-box {
   height: 150px;
   width: 250px;
-  background-color:rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 0;
   left: 0;
   transition: background-color 0.3s ease;
 }
 
+/* Hover effects */
 .img-box:hover img { 
   transform: scale(1.1);
 }
 
 .img-box:hover .transparent-box {
-  background-color:rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.img-box:hover .caption {
-  transform: translateY(-1px);
-  opacity: 1.0;
-}
-
-
-.img-box:hover .caption h3 {
-  color: white;
-  font-size: 1.5em;
-  line-height: 1.1;
-}
-
-.img-box:hover .caption h4 {
-  color: white;
-  font-size: 1.2em;
-}
-
+/* ✅ Reveal H4 + P on hover */
+.img-box:hover .caption h4,
 .img-box:hover .caption p {
-  color: white;
-  font-size: 0.8em;
-  line-height: 1.0;
-}
-
-/* Optional: make second line slightly dimmer for contrast */
-.img-box:hover .caption p.opacity-low {
-  color: #cccccc;
   opacity: 1;
-  ont-size: 1.0em;
 }
 
-/* Make caption text always white (not just on hover) if preferred */
-.caption p {
-  color: white;
-}
-
+/* Pointer cursor on hover */
 .img-box:hover {
   cursor: pointer;
 }
 
-.caption > p:nth-child(2) {
-  font-size: 1.0em;
-}
-
+/* Dim text option for second line */
 .opacity-low {
+  color: #cccccc;
   opacity: 1.0;
 }
